@@ -60,7 +60,7 @@ go run main.go
 
 #### Run the Dashboard (Frontend)
 ```bash
-cd victored-predictor
+cd frontend
 npm install
 npm run dev
 ```
@@ -71,7 +71,7 @@ Navigate to the **Backtest de Motor** tab to witness the concurrent processing o
 
 This project is fully automated for production deployment via SSH. 
 
-1. Ensure the `.env.production` file is created inside `victored-predictor/` setting your server's IP:
+1. Ensure the `.env.production` file is created inside `frontend/` setting your server's IP:
 ```env
 VITE_API_URL=http://your-server-ip:8080
 ```
@@ -137,7 +137,7 @@ go run main.go
 
 #### Ejecutar el Dashboard (Frontend)
 ```bash
-cd victored-predictor
+cd frontend
 npm install
 npm run dev
 ```
@@ -148,7 +148,7 @@ Navega a la pestaña de **Backtest de Motor** para presenciar el procesamiento c
 
 Este proyecto está completamente automatizado para un despliegue en producción vía SSH.
 
-1. Asegúrate de crear el archivo `.env.production` dentro de la carpeta `victored-predictor/`, configurando la IP o dominio de tu servidor:
+1. Asegúrate de crear el archivo `.env.production` dentro de la carpeta `frontend/`, configurando la IP o dominio de tu servidor:
 ```env
 VITE_API_URL=http://tu-ip-de-servidor:8080
 ```

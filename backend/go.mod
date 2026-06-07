@@ -1,4 +1,4 @@
-module github.com/davidhernandezgomez/victored-predictor
+module github.com/davhernandezgo/2026-worldcup-montecarlo-engine
 
 go 1.22.2
 

@@ -2,13 +2,13 @@
 backend/engine
 backend/simulator
 backend/simulator.exe
-victored-predictor/dist/
+frontend/dist/
 dist/
 build/
 
 # Node modules
 node_modules/
-victored-predictor/node_modules/
+frontend/node_modules/
 
 # Environment files
 .env

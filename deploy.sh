@@ -25,7 +25,7 @@ ssh $SERVER << EOF
   sudo systemctl restart $SYSTEMD_SERVICE
 
   echo "📦 Recompilando Frontend (React/Vite)..."
-  cd ../victored-predictor
+  cd ../frontend
   npm install
   npm run build
 
