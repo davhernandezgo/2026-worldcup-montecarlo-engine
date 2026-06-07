@@ -195,7 +195,6 @@ func main() {
 			return c.Status(400).JSON(fiber.Map{"error": "Invalid request"})
 		}
 		
-		start := time.Now()
 		res := simulateTournament(req.Weights)
 		
 		return c.JSON(res)
