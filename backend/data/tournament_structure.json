@@ -1,0 +1,110 @@
+[
+  {
+    "group": "A",
+    "teams": [
+      "Marruecos",
+      "Perú",
+      "Inglaterra",
+      "Irak"
+    ]
+  },
+  {
+    "group": "B",
+    "teams": [
+      "México",
+      "Nigeria",
+      "Alemania",
+      "Túnez"
+    ]
+  },
+  {
+    "group": "C",
+    "teams": [
+      "Australia",
+      "Canadá",
+      "Suecia",
+      "Colombia"
+    ]
+  },
+  {
+    "group": "D",
+    "teams": [
+      "Senegal",
+      "Ecuador",
+      "Países Bajos",
+      "Uzbekistán"
+    ]
+  },
+  {
+    "group": "E",
+    "teams": [
+      "Uruguay",
+      "Nueva Zelanda",
+      "Argentina",
+      "Catar"
+    ]
+  },
+  {
+    "group": "F",
+    "teams": [
+      "Brasil",
+      "Estados Unidos",
+      "Arabia Saudita",
+      "España"
+    ]
+  },
+  {
+    "group": "G",
+    "teams": [
+      "Panamá",
+      "Austria",
+      "Argelia",
+      "Costa Rica"
+    ]
+  },
+  {
+    "group": "H",
+    "teams": [
+      "Serbia",
+      "Irán",
+      "Camerún",
+      "Francia"
+    ]
+  },
+  {
+    "group": "I",
+    "teams": [
+      "Portugal",
+      "Japón",
+      "Bélgica",
+      "Egipto"
+    ]
+  },
+  {
+    "group": "J",
+    "teams": [
+      "Ucrania",
+      "Polonia",
+      "Corea del Sur",
+      "Chile"
+    ]
+  },
+  {
+    "group": "K",
+    "teams": [
+      "Suiza",
+      "Costa de Marfil",
+      "Dinamarca",
+      "Croacia"
+    ]
+  },
+  {
+    "group": "L",
+    "teams": [
+      "Italia",
+      "Mali",
+      "Turquía",
+      "Gales"
+    ]
+  }
+]

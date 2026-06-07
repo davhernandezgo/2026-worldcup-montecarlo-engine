@@ -1,0 +1,1208 @@
+[
+  {
+    "id": "ESP",
+    "name": "España",
+    "confederation": "UEFA",
+    "baseElo": 2050,
+    "optaRating": 90.5,
+    "socioScore": 8.5,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Rodri",
+        "quality": 95,
+        "status": "injured"
+      },
+      {
+        "name": "Lamine Yamal",
+        "quality": 92,
+        "status": "active"
+      },
+      {
+        "name": "Gavi",
+        "quality": 88,
+        "status": "injured"
+      },
+      {
+        "name": "Pedri",
+        "quality": 89,
+        "status": "active"
+      },
+      {
+        "name": "Álvaro Morata",
+        "quality": 85,
+        "status": "active"
+      },
+      {
+        "name": "Aymeric Laporte",
+        "quality": 86,
+        "status": "active"
+      },
+      {
+        "name": "Unai Simón",
+        "quality": 87,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "BRA",
+    "name": "Brasil",
+    "confederation": "CONMEBOL",
+    "baseElo": 2140,
+    "optaRating": 93.5,
+    "socioScore": 7.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Vinícius Jr.",
+        "quality": 94,
+        "status": "active"
+      },
+      {
+        "name": "Rodrygo",
+        "quality": 89,
+        "status": "injured"
+      },
+      {
+        "name": "Neymar Jr.",
+        "quality": 90,
+        "status": "injured"
+      },
+      {
+        "name": "Alisson",
+        "quality": 90,
+        "status": "active"
+      },
+      {
+        "name": "Marquinhos",
+        "quality": 88,
+        "status": "active"
+      },
+      {
+        "name": "Bruno Guimarães",
+        "quality": 87,
+        "status": "active"
+      },
+      {
+        "name": "Raphinha",
+        "quality": 89,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "FRA",
+    "name": "Francia",
+    "confederation": "UEFA",
+    "baseElo": 2100,
+    "optaRating": 92.0,
+    "socioScore": 9.0,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Kylian Mbappé",
+        "quality": 96,
+        "status": "active"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "quality": 90,
+        "status": "active"
+      },
+      {
+        "name": "William Saliba",
+        "quality": 88,
+        "status": "injured"
+      },
+      {
+        "name": "Mike Maignan",
+        "quality": 89,
+        "status": "active"
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "quality": 87,
+        "status": "active"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "quality": 86,
+        "status": "active"
+      },
+      {
+        "name": "Theo Hernández",
+        "quality": 87,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "confederation": "CONMEBOL",
+    "baseElo": 2150,
+    "optaRating": 94.0,
+    "socioScore": 7.0,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Lionel Messi",
+        "quality": 94,
+        "status": "active"
+      },
+      {
+        "name": "Julián Álvarez",
+        "quality": 89,
+        "status": "active"
+      },
+      {
+        "name": "Emiliano Martínez",
+        "quality": 90,
+        "status": "active"
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "quality": 88,
+        "status": "active"
+      },
+      {
+        "name": "Enzo Fernández",
+        "quality": 87,
+        "status": "active"
+      },
+      {
+        "name": "Cristian Romero",
+        "quality": 88,
+        "status": "injured"
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "quality": 86,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "MEX",
+    "name": "México",
+    "confederation": "CONCACAF",
+    "baseElo": 1900,
+    "optaRating": 82.0,
+    "socioScore": 6.5,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Santiago Giménez",
+        "quality": 84,
+        "status": "active"
+      },
+      {
+        "name": "Edson Álvarez",
+        "quality": 83,
+        "status": "injured"
+      },
+      {
+        "name": "Guillermo Ochoa",
+        "quality": 79,
+        "status": "active"
+      },
+      {
+        "name": "Hirving Lozano",
+        "quality": 82,
+        "status": "active"
+      },
+      {
+        "name": "Johan Vásquez",
+        "quality": 80,
+        "status": "active"
+      },
+      {
+        "name": "Luis Chávez",
+        "quality": 80,
+        "status": "active"
+      },
+      {
+        "name": "César Montes",
+        "quality": 81,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ENG",
+    "name": "Inglaterra",
+    "confederation": "UEFA",
+    "baseElo": 2080,
+    "optaRating": 91.0,
+    "socioScore": 9.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Harry Kane",
+        "quality": 93,
+        "status": "active"
+      },
+      {
+        "name": "Jude Bellingham",
+        "quality": 94,
+        "status": "active"
+      },
+      {
+        "name": "Phil Foden",
+        "quality": 90,
+        "status": "active"
+      },
+      {
+        "name": "Declan Rice",
+        "quality": 89,
+        "status": "active"
+      },
+      {
+        "name": "Bukayo Saka",
+        "quality": 90,
+        "status": "active"
+      },
+      {
+        "name": "John Stones",
+        "quality": 87,
+        "status": "injured"
+      },
+      {
+        "name": "Luke Shaw",
+        "quality": 84,
+        "status": "injured"
+      }
+    ]
+  },
+  {
+    "id": "URU",
+    "name": "Uruguay",
+    "confederation": "CONMEBOL",
+    "baseElo": 1862,
+    "optaRating": 84.4,
+    "socioScore": 5.7,
+    "isAcclimated": true,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Uruguay",
+        "quality": 85.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Uruguay",
+        "quality": 76.6,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "confederation": "CONMEBOL",
+    "baseElo": 1948,
+    "optaRating": 87.7,
+    "socioScore": 7.4,
+    "isAcclimated": true,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Colombia",
+        "quality": 86.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Colombia",
+        "quality": 87.6,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "confederation": "CONMEBOL",
+    "baseElo": 1807,
+    "optaRating": 83.9,
+    "socioScore": 8.2,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Ecuador",
+        "quality": 83.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Ecuador",
+        "quality": 71.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "PER",
+    "name": "Perú",
+    "confederation": "CONMEBOL",
+    "baseElo": 2003,
+    "optaRating": 83.0,
+    "socioScore": 5.1,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Perú",
+        "quality": 72.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Perú",
+        "quality": 71.1,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CHI",
+    "name": "Chile",
+    "confederation": "CONMEBOL",
+    "baseElo": 2049,
+    "optaRating": 80.7,
+    "socioScore": 6.6,
+    "isAcclimated": true,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Chile",
+        "quality": 84.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Chile",
+        "quality": 74.5,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "EST",
+    "name": "Estados Unidos",
+    "confederation": "CONCACAF",
+    "baseElo": 1797,
+    "optaRating": 75.2,
+    "socioScore": 5.7,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Estados Unidos",
+        "quality": 76.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Estados Unidos",
+        "quality": 86.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CAN",
+    "name": "Canadá",
+    "confederation": "CONCACAF",
+    "baseElo": 1878,
+    "optaRating": 75.7,
+    "socioScore": 8.6,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Canadá",
+        "quality": 76.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Canadá",
+        "quality": 77.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "COS",
+    "name": "Costa Rica",
+    "confederation": "CONCACAF",
+    "baseElo": 1813,
+    "optaRating": 80.3,
+    "socioScore": 6.9,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Costa Rica",
+        "quality": 81.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Costa Rica",
+        "quality": 70.5,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "PAN",
+    "name": "Panamá",
+    "confederation": "CONCACAF",
+    "baseElo": 1894,
+    "optaRating": 78.3,
+    "socioScore": 6.6,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Panamá",
+        "quality": 79.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Panamá",
+        "quality": 86.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "MAR",
+    "name": "Marruecos",
+    "confederation": "CAF",
+    "baseElo": 1713,
+    "optaRating": 77.2,
+    "socioScore": 7.2,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Marruecos",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Marruecos",
+        "quality": 82.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "confederation": "CAF",
+    "baseElo": 1695,
+    "optaRating": 73.5,
+    "socioScore": 7.7,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Senegal",
+        "quality": 86.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Senegal",
+        "quality": 70.3,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "EGI",
+    "name": "Egipto",
+    "confederation": "CAF",
+    "baseElo": 1833,
+    "optaRating": 73.8,
+    "socioScore": 6.4,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Egipto",
+        "quality": 75.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Egipto",
+        "quality": 70.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "NIG",
+    "name": "Nigeria",
+    "confederation": "CAF",
+    "baseElo": 1785,
+    "optaRating": 73.1,
+    "socioScore": 5.7,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Nigeria",
+        "quality": 78.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Nigeria",
+        "quality": 77.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CAM",
+    "name": "Camerún",
+    "confederation": "CAF",
+    "baseElo": 1735,
+    "optaRating": 77.1,
+    "socioScore": 8.9,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Camerún",
+        "quality": 71.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Camerún",
+        "quality": 71.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "COS",
+    "name": "Costa de Marfil",
+    "confederation": "CAF",
+    "baseElo": 1754,
+    "optaRating": 76.1,
+    "socioScore": 5.9,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Costa de Marfil",
+        "quality": 78.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Costa de Marfil",
+        "quality": 87.5,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "TÚN",
+    "name": "Túnez",
+    "confederation": "CAF",
+    "baseElo": 1606,
+    "optaRating": 72.7,
+    "socioScore": 7.6,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Túnez",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Túnez",
+        "quality": 83.2,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ARG",
+    "name": "Argelia",
+    "confederation": "CAF",
+    "baseElo": 1703,
+    "optaRating": 71.7,
+    "socioScore": 7.7,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Argelia",
+        "quality": 79.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Argelia",
+        "quality": 84.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "MAL",
+    "name": "Mali",
+    "confederation": "CAF",
+    "baseElo": 1753,
+    "optaRating": 70.8,
+    "socioScore": 6.5,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Mali",
+        "quality": 82.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Mali",
+        "quality": 71.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "JAP",
+    "name": "Japón",
+    "confederation": "AFC",
+    "baseElo": 1699,
+    "optaRating": 76.9,
+    "socioScore": 8.8,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Japón",
+        "quality": 72.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Japón",
+        "quality": 76.5,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "COR",
+    "name": "Corea del Sur",
+    "confederation": "AFC",
+    "baseElo": 1610,
+    "optaRating": 72.5,
+    "socioScore": 7.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Corea del Sur",
+        "quality": 79.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Corea del Sur",
+        "quality": 71.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "IRÁ",
+    "name": "Irán",
+    "confederation": "AFC",
+    "baseElo": 1799,
+    "optaRating": 76.0,
+    "socioScore": 5.0,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Irán",
+        "quality": 72.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Irán",
+        "quality": 70.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ARA",
+    "name": "Arabia Saudita",
+    "confederation": "AFC",
+    "baseElo": 1774,
+    "optaRating": 73.3,
+    "socioScore": 5.9,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Arabia Saudita",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Arabia Saudita",
+        "quality": 82.9,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "confederation": "AFC",
+    "baseElo": 1825,
+    "optaRating": 72.6,
+    "socioScore": 5.6,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Australia",
+        "quality": 76.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Australia",
+        "quality": 76.2,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CAT",
+    "name": "Catar",
+    "confederation": "AFC",
+    "baseElo": 1826,
+    "optaRating": 70.8,
+    "socioScore": 7.4,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Catar",
+        "quality": 75.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Catar",
+        "quality": 71.2,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistán",
+    "confederation": "AFC",
+    "baseElo": 1686,
+    "optaRating": 74.8,
+    "socioScore": 6.5,
+    "isAcclimated": false,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 Uzbekistán",
+        "quality": 83.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Uzbekistán",
+        "quality": 75.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "IRA",
+    "name": "Irak",
+    "confederation": "AFC",
+    "baseElo": 1672,
+    "optaRating": 75.9,
+    "socioScore": 5.5,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Irak",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Irak",
+        "quality": 71.9,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ALE",
+    "name": "Alemania",
+    "confederation": "UEFA",
+    "baseElo": 1832,
+    "optaRating": 87.6,
+    "socioScore": 6.6,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Alemania",
+        "quality": 75.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Alemania",
+        "quality": 81.1,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "POR",
+    "name": "Portugal",
+    "confederation": "UEFA",
+    "baseElo": 1800,
+    "optaRating": 84.5,
+    "socioScore": 8.1,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Portugal",
+        "quality": 76.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Portugal",
+        "quality": 77.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ITA",
+    "name": "Italia",
+    "confederation": "UEFA",
+    "baseElo": 1997,
+    "optaRating": 83.3,
+    "socioScore": 8.8,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Italia",
+        "quality": 87.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Italia",
+        "quality": 82.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "PAÍ",
+    "name": "Países Bajos",
+    "confederation": "UEFA",
+    "baseElo": 1821,
+    "optaRating": 89.1,
+    "socioScore": 6.1,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Países Bajos",
+        "quality": 82.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Países Bajos",
+        "quality": 88.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CRO",
+    "name": "Croacia",
+    "confederation": "UEFA",
+    "baseElo": 1908,
+    "optaRating": 88.6,
+    "socioScore": 6.7,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Croacia",
+        "quality": 77.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Croacia",
+        "quality": 85.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "BÉL",
+    "name": "Bélgica",
+    "confederation": "UEFA",
+    "baseElo": 1912,
+    "optaRating": 82.0,
+    "socioScore": 8.6,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Bélgica",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Bélgica",
+        "quality": 76.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "DIN",
+    "name": "Dinamarca",
+    "confederation": "UEFA",
+    "baseElo": 1843,
+    "optaRating": 88.7,
+    "socioScore": 8.0,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Dinamarca",
+        "quality": 78.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Dinamarca",
+        "quality": 84.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "SUI",
+    "name": "Suiza",
+    "confederation": "UEFA",
+    "baseElo": 1981,
+    "optaRating": 85.9,
+    "socioScore": 6.6,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Suiza",
+        "quality": 76.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Suiza",
+        "quality": 76.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "SER",
+    "name": "Serbia",
+    "confederation": "UEFA",
+    "baseElo": 1805,
+    "optaRating": 84.8,
+    "socioScore": 5.9,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Serbia",
+        "quality": 78.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Serbia",
+        "quality": 77.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "POL",
+    "name": "Polonia",
+    "confederation": "UEFA",
+    "baseElo": 2023,
+    "optaRating": 84.8,
+    "socioScore": 7.1,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Polonia",
+        "quality": 70.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Polonia",
+        "quality": 79.3,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "UCR",
+    "name": "Ucrania",
+    "confederation": "UEFA",
+    "baseElo": 1888,
+    "optaRating": 87.8,
+    "socioScore": 7.3,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Ucrania",
+        "quality": 75.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Ucrania",
+        "quality": 72.1,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "GAL",
+    "name": "Gales",
+    "confederation": "UEFA",
+    "baseElo": 1809,
+    "optaRating": 85.0,
+    "socioScore": 5.4,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Gales",
+        "quality": 79.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Gales",
+        "quality": 71.2,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "SUE",
+    "name": "Suecia",
+    "confederation": "UEFA",
+    "baseElo": 2016,
+    "optaRating": 86.5,
+    "socioScore": 7.2,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Suecia",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Suecia",
+        "quality": 72.3,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "AUS",
+    "name": "Austria",
+    "confederation": "UEFA",
+    "baseElo": 1849,
+    "optaRating": 88.8,
+    "socioScore": 5.2,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Austria",
+        "quality": 83.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Austria",
+        "quality": 82.5,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "NUE",
+    "name": "Nueva Zelanda",
+    "confederation": "OFC",
+    "baseElo": 1870,
+    "optaRating": 80.7,
+    "socioScore": 7.0,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 Nueva Zelanda",
+        "quality": 84.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Nueva Zelanda",
+        "quality": 85.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "TUR",
+    "name": "Turquía",
+    "confederation": "UEFA",
+    "baseElo": 1912,
+    "optaRating": 86.1,
+    "socioScore": 7.9,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 Turquía",
+        "quality": 76.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 Turquía",
+        "quality": 79.8,
+        "status": "active"
+      }
+    ]
+  }
+]
