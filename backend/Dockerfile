@@ -1,5 +1,5 @@
 # Etapa 1: Construcción
-FROM golang:1.21-alpine AS builder
+FROM golang:1.22-alpine AS builder
 
 # Habilitar CGO_ENABLED=0 para compilar un binario 100% estático
 ENV CGO_ENABLED=0 GOOS=linux GOARCH=amd64
