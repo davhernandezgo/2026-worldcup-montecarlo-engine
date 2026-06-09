@@ -18,7 +18,7 @@ interface GroupStanding {
   GF: number;
 }
 
-interface TournamentResponse {
+export interface TournamentResponse {
   groups: Record<string, GroupStanding[]>;
   round32: MatchNode[];
   round16: MatchNode[];
@@ -26,6 +26,106 @@ interface TournamentResponse {
   semis: MatchNode[];
   final: MatchNode;
   globalConfidence: number;
+}
+
+export function TournamentBracket({ results }: { results: TournamentResponse }) {
+  const renderMatch = (match: MatchNode, isFinal = false) => {
+    if (!match) return null;
+    return (
+      <div className={`bracket-match ${isFinal ? 'bracket-final' : ''}`} key={`${match.teamA}-${match.teamB}`}>
+        <div className={`bracket-team ${match.winner === match.teamA ? 'winner' : ''}`}>
+          <span>{match.teamA}</span>
+          <span>{match.scoreA.toFixed(1)}</span>
+        </div>
+        <div className={`bracket-team ${match.winner === match.teamB ? 'winner' : ''}`}>
+          <span>{match.teamB}</span>
+          <span>{match.scoreB.toFixed(1)}</span>
+        </div>
+      </div>
+    );
+  };
+
+  return (
+    <div className="tournament-container animate-fade-in">
+      <h2 style={{ textAlign: 'center', marginBottom: '2rem' }}>
+        <span className="text-green">¡CAMPEÓN: {results.final?.winner}!</span>
+      </h2>
+      
+      <div className="groups-wrapper" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', marginBottom: '3rem' }}>
+        {Object.keys(results.groups || {}).sort().map(groupLetter => (
+          <div key={groupLetter} className="group-table-card" style={{ backgroundColor: 'var(--bg-dark)', padding: '1rem', borderRadius: '8px', minWidth: '250px' }}>
+            <h4 style={{ color: 'var(--accent-green)', textAlign: 'center', marginBottom: '0.5rem' }}>Grupo {groupLetter}</h4>
+            <table style={{ width: '100%', fontSize: '0.9rem', borderCollapse: 'collapse' }}>
+              <thead>
+                <tr style={{ borderBottom: '1px solid var(--border-color)', color: 'var(--text-muted)' }}>
+                  <th style={{ textAlign: 'left', paddingBottom: '4px' }}>Equipo</th>
+                  <th style={{ paddingBottom: '4px' }}>Pts</th>
+                  <th style={{ paddingBottom: '4px' }}>GF</th>
+                  <th style={{ paddingBottom: '4px' }}>DG</th>
+                </tr>
+              </thead>
+              <tbody>
+                {results.groups[groupLetter].map((team, idx) => (
+                  <tr key={team.TeamName} style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+                    <td style={{ padding: '4px 0', fontWeight: idx < 2 ? 'bold' : 'normal', color: idx < 2 ? 'var(--text-main)' : 'var(--text-muted)' }}>{idx + 1}. {team.TeamName}</td>
+                    <td style={{ textAlign: 'center' }}>{team.Points}</td>
+                    <td style={{ textAlign: 'center' }}>{team.GF.toFixed(1)}</td>
+                    <td style={{ textAlign: 'center' }}>{team.GD.toFixed(1)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ))}
+      </div>
+      
+      <div className="bracket-wrapper">
+        {/* LADO IZQUIERDO */}
+        <div className="bracket-col">
+          <div className="phase-title">16avos</div>
+          {results.round32?.slice(0, 8).map(m => renderMatch(m))}
+        </div>
+        <div className="bracket-col">
+          <div className="phase-title">Octavos</div>
+          {results.round16?.slice(0, 4).map(m => renderMatch(m))}
+        </div>
+        <div className="bracket-col">
+          <div className="phase-title">Cuartos</div>
+          {results.quarters?.slice(0, 2).map(m => renderMatch(m))}
+        </div>
+        <div className="bracket-col">
+          <div className="phase-title">Semis</div>
+          {results.semis && renderMatch(results.semis[0])}
+        </div>
+
+        {/* FINAL (CENTRO) */}
+        <div className="bracket-col" style={{ flex: 1.5, justifyContent: 'center' }}>
+          <div className="phase-title" style={{ color: 'var(--accent-green)', fontSize: '1.2rem' }}>LA GRAN FINAL</div>
+          {results.final && renderMatch(results.final, true)}
+        </div>
+
+        {/* LADO DERECHO */}
+        <div className="bracket-col">
+          <div className="phase-title">Semis</div>
+          {results.semis && renderMatch(results.semis[1])}
+        </div>
+        <div className="bracket-col">
+          <div className="phase-title">Cuartos</div>
+          {results.quarters?.slice(2, 4).map(m => renderMatch(m))}
+        </div>
+        <div className="bracket-col">
+          <div className="phase-title">Octavos</div>
+          {results.round16?.slice(4, 8).map(m => renderMatch(m))}
+        </div>
+        <div className="bracket-col">
+          <div className="phase-title">16avos</div>
+          {results.round32?.slice(8, 16).map(m => renderMatch(m))}
+        </div>
+      </div>
+      
+      {results.globalConfidence && <ConfidenceDashboard currentConfidence={results.globalConfidence} />}
+    </div>
+  );
 }
 
 export default function TournamentView() {
@@ -91,59 +191,7 @@ export default function TournamentView() {
         </button>
       </div>
 
-      {results && (
-        <div className="tournament-container animate-fade-in">
-          <h2 style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            <span className="text-green">¡CAMPEÓN: {results.final.winner}!</span>
-          </h2>
-          
-          <div className="bracket-wrapper">
-            {/* LADO IZQUIERDO */}
-            <div className="bracket-col">
-              <div className="phase-title">16avos</div>
-              {results.round32.slice(0, 8).map(m => renderMatch(m))}
-            </div>
-            <div className="bracket-col">
-              <div className="phase-title">Octavos</div>
-              {results.round16.slice(0, 4).map(m => renderMatch(m))}
-            </div>
-            <div className="bracket-col">
-              <div className="phase-title">Cuartos</div>
-              {results.quarters.slice(0, 2).map(m => renderMatch(m))}
-            </div>
-            <div className="bracket-col">
-              <div className="phase-title">Semis</div>
-              {renderMatch(results.semis[0])}
-            </div>
-
-            {/* FINAL (CENTRO) */}
-            <div className="bracket-col" style={{ flex: 1.5, justifyContent: 'center' }}>
-              <div className="phase-title" style={{ color: 'var(--accent-green)', fontSize: '1.2rem' }}>LA GRAN FINAL</div>
-              {renderMatch(results.final, true)}
-            </div>
-
-            {/* LADO DERECHO */}
-            <div className="bracket-col">
-              <div className="phase-title">Semis</div>
-              {renderMatch(results.semis[1])}
-            </div>
-            <div className="bracket-col">
-              <div className="phase-title">Cuartos</div>
-              {results.quarters.slice(2, 4).map(m => renderMatch(m))}
-            </div>
-            <div className="bracket-col">
-              <div className="phase-title">Octavos</div>
-              {results.round16.slice(4, 8).map(m => renderMatch(m))}
-            </div>
-            <div className="bracket-col">
-              <div className="phase-title">16avos</div>
-              {results.round32.slice(8, 16).map(m => renderMatch(m))}
-            </div>
-          </div>
-          
-          <ConfidenceDashboard currentConfidence={results.globalConfidence} />
-        </div>
-      )}
+      {results && <TournamentBracket results={results} />}
     </div>
   );
 }

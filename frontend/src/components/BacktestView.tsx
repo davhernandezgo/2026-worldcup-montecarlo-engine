@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ModelMixer from './ModelMixer';
+import { TournamentBracket, TournamentResponse } from './TournamentView';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 interface BacktestResponse {
@@ -7,6 +8,7 @@ interface BacktestResponse {
   champion_counts: Record<string, number>;
   average_surprise_factor: number;
   execution_time_ms: number;
+  most_probable_tournament?: TournamentResponse;
 }
 
 export default function BacktestView() {
@@ -132,6 +134,14 @@ export default function BacktestView() {
               </BarChart>
             </ResponsiveContainer>
           </div>
+          
+          {results.most_probable_tournament && (
+            <div style={{ marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid var(--border-color)' }}>
+              <h3 style={{ textAlign: 'center', marginBottom: '1rem' }}>Torneo Maestro (Camino Más Probable)</h3>
+              <p className="text-muted" style={{ textAlign: 'center', marginBottom: '2rem' }}>Este es el resultado determinista promediando las 100 simulaciones. Muestra el desarrollo matemático más exacto del torneo.</p>
+              <TournamentBracket results={results.most_probable_tournament} />
+            </div>
+          )}
         </div>
       )}
     </div>
