@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ModelMixer from './ModelMixer';
-import { TournamentBracket, TournamentResponse } from './TournamentView';
+import { TournamentBracket, type TournamentResponse } from './TournamentView';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 interface BacktestResponse {
