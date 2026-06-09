@@ -27,6 +27,9 @@ WORKDIR /
 # Copiar el binario desde la etapa builder
 COPY --from=builder /app/simulator .
 
+# Copiar la carpeta data
+COPY --from=builder /app/data ./data
+
 # Exponer el puerto de Fiber
 EXPOSE 8080
 
