@@ -404,6 +404,9 @@ func simulateTournament(weights SimulationRequest) TournamentResponse {
 		}
 		sort.Slice(groupSorted, func(i, j int) bool {
 			if groupSorted[i].Points == groupSorted[j].Points {
+				if groupSorted[i].GD == groupSorted[j].GD {
+					return groupSorted[i].GF > groupSorted[j].GF
+				}
 				return groupSorted[i].GD > groupSorted[j].GD
 			}
 			return groupSorted[i].Points > groupSorted[j].Points
@@ -417,18 +420,45 @@ func simulateTournament(weights SimulationRequest) TournamentResponse {
 	// Get best 8 thirds
 	sort.Slice(allThirds, func(i, j int) bool {
 		if allThirds[i].Points == allThirds[j].Points {
+			if allThirds[i].GD == allThirds[j].GD {
+				return allThirds[i].GF > allThirds[j].GF
+			}
 			return allThirds[i].GD > allThirds[j].GD
 		}
 		return allThirds[i].Points > allThirds[j].Points
 	})
 
+	winners := []string{}
+	runners := []string{}
+	for _, letter := range []string{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"} {
+		if group, ok := groupsResult[letter]; ok && len(group) >= 2 {
+			winners = append(winners, group[0].TeamName)
+			runners = append(runners, group[1].TeamName)
+		}
+	}
+	
+	thirds := []string{}
 	for i := 0; i < 8; i++ {
-		qualified32 = append(qualified32, allThirds[i].TeamName)
+		thirds = append(thirds, allThirds[i].TeamName)
 	}
 
-	// Randomize Round of 32 for simplicity (in reality there's a strict bracket logic, but this suffices for the MVP)
-	rand.Seed(time.Now().UnixNano())
-	rand.Shuffle(len(qualified32), func(i, j int) { qualified32[i], qualified32[j] = qualified32[j], qualified32[i] })
+	qualified32 = make([]string, 32)
+	qualified32[0], qualified32[1] = winners[0], thirds[0]
+	qualified32[2], qualified32[3] = runners[1], runners[2]
+	qualified32[4], qualified32[5] = winners[3], thirds[1]
+	qualified32[6], qualified32[7] = runners[4], runners[5]
+	qualified32[8], qualified32[9] = winners[6], thirds[2]
+	qualified32[10], qualified32[11] = runners[7], runners[8]
+	qualified32[12], qualified32[13] = winners[9], thirds[3]
+	qualified32[14], qualified32[15] = runners[10], runners[11]
+	qualified32[16], qualified32[17] = winners[1], thirds[4]
+	qualified32[18], qualified32[19] = runners[0], runners[3]
+	qualified32[20], qualified32[21] = winners[4], thirds[5]
+	qualified32[22], qualified32[23] = runners[6], runners[9]
+	qualified32[24], qualified32[25] = winners[7], thirds[6]
+	qualified32[26], qualified32[27] = winners[2], winners[5]
+	qualified32[28], qualified32[29] = winners[8], thirds[7]
+	qualified32[30], qualified32[31] = winners[10], winners[11]
 
 	round32, conf32 := simulatePhase(qualified32, weights, "Round of 32")
 	

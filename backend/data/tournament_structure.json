@@ -3,18 +3,18 @@
     "group": "A",
     "teams": [
       "México",
+      "Sudáfrica",
       "República de Corea",
-      "Túnez",
-      "Sudáfrica"
+      "República Checa"
     ]
   },
   {
     "group": "B",
     "teams": [
       "Canadá",
-      "Suiza",
+      "Bosnia y Herzegovina",
       "Catar",
-      "Bosnia y Herzegovina"
+      "Suiza"
     ]
   },
   {
@@ -22,26 +22,26 @@
     "teams": [
       "Brasil",
       "Marruecos",
-      "Escocia",
-      "Haití"
+      "Haití",
+      "Escocia"
     ]
   },
   {
     "group": "D",
     "teams": [
       "Estados Unidos",
-      "Turquía",
       "Paraguay",
-      "Australia"
+      "Australia",
+      "Turquía"
     ]
   },
   {
     "group": "E",
     "teams": [
       "Alemania",
-      "Ecuador",
+      "Curazao",
       "Costa de Marfil",
-      "Curazao"
+      "Ecuador"
     ]
   },
   {
@@ -50,7 +50,7 @@
       "Países Bajos",
       "Japón",
       "Suecia",
-      "Omán"
+      "Túnez"
     ]
   },
   {
@@ -58,52 +58,52 @@
     "teams": [
       "Bélgica",
       "Egipto",
-      "Irán",
-      "Venezuela"
+      "RI de Irán",
+      "Nueva Zelanda"
     ]
   },
   {
     "group": "H",
     "teams": [
       "España",
-      "Arabia Saudita",
       "Cabo Verde",
-      "Nueva Zelanda"
+      "Arabia Saudí",
+      "Uruguay"
     ]
   },
   {
     "group": "I",
     "teams": [
-      "Argentina",
-      "Croacia",
-      "Mali",
-      "Uzbekistán"
+      "Francia",
+      "Senegal",
+      "Irak",
+      "Noruega"
     ]
   },
   {
     "group": "J",
     "teams": [
-      "Francia",
-      "Colombia",
-      "Gales",
-      "Irak"
+      "Argentina",
+      "Argelia",
+      "Austria",
+      "Jordania"
     ]
   },
   {
     "group": "K",
     "teams": [
-      "Inglaterra",
-      "Uruguay",
-      "Nigeria",
-      "Emiratos Árabes Unidos"
+      "Portugal",
+      "RD de Congo",
+      "Uzbekistán",
+      "Colombia"
     ]
   },
   {
     "group": "L",
     "teams": [
-      "Portugal",
-      "Senegal",
-      "Polonia",
+      "Inglaterra",
+      "Croacia",
+      "Ghana",
       "Panamá"
     ]
   }
