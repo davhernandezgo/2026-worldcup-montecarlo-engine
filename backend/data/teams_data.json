@@ -1,47 +1,1136 @@
 [
   {
-    "id": "ESP",
-    "name": "España",
-    "confederation": "UEFA",
-    "baseElo": 2050,
-    "optaRating": 90.5,
-    "socioScore": 8.5,
+    "id": "MÉX",
+    "name": "México",
+    "confederation": "CONCACAF",
+    "baseElo": 1900,
+    "optaRating": 82.0,
+    "socioScore": 7.0,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Santiago Giménez",
+        "quality": 88.86895086501275,
+        "status": "active"
+      },
+      {
+        "name": "Edson Álvarez",
+        "quality": 94.5292470326539,
+        "status": "active"
+      },
+      {
+        "name": "Luis Chávez",
+        "quality": 91.70208462760922,
+        "status": "active"
+      },
+      {
+        "name": "Johan Vásquez",
+        "quality": 91.61484091010188,
+        "status": "active"
+      },
+      {
+        "name": "Guillermo Ochoa",
+        "quality": 93.2719447765627,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de México",
+        "quality": 81.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de México",
+        "quality": 79.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de México",
+        "quality": 74.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de México",
+        "quality": 88.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de México",
+        "quality": 78.4,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 11 de México",
+        "quality": 77.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de México",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de México",
+        "quality": 85.9,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 14 de México",
+        "quality": 84.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de México",
+        "quality": 77.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de México",
+        "quality": 81.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de México",
+        "quality": 78.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de México",
+        "quality": 80.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de México",
+        "quality": 78.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de México",
+        "quality": 87.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de México",
+        "quality": 85.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de México",
+        "quality": 82.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de México",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de México",
+        "quality": 91.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de México",
+        "quality": 84.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de México",
+        "quality": 73.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "REP",
+    "name": "República de Corea",
+    "confederation": "AFC",
+    "baseElo": 1688,
+    "optaRating": 76.1,
+    "socioScore": 7.3,
     "isAcclimated": false,
     "playStyle": "possession",
     "roster": [
       {
-        "name": "Rodri",
-        "quality": 95,
+        "name": "Jugador 1 de República de Corea",
+        "quality": 75.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de República de Corea",
+        "quality": 86.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de República de Corea",
+        "quality": 70.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de República de Corea",
+        "quality": 80.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de República de Corea",
+        "quality": 78.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de República de Corea",
+        "quality": 72.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de República de Corea",
+        "quality": 77.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de República de Corea",
+        "quality": 77.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de República de Corea",
+        "quality": 82.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de República de Corea",
+        "quality": 84.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de República de Corea",
+        "quality": 77.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de República de Corea",
+        "quality": 79.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de República de Corea",
+        "quality": 82.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de República de Corea",
+        "quality": 71.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de República de Corea",
+        "quality": 73.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de República de Corea",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de República de Corea",
+        "quality": 70.9,
         "status": "injured"
       },
       {
-        "name": "Lamine Yamal",
-        "quality": 92,
+        "name": "Jugador 18 de República de Corea",
+        "quality": 71.6,
         "status": "active"
       },
       {
-        "name": "Gavi",
-        "quality": 88,
+        "name": "Jugador 19 de República de Corea",
+        "quality": 79.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de República de Corea",
+        "quality": 77.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de República de Corea",
+        "quality": 73.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de República de Corea",
+        "quality": 79.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de República de Corea",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de República de Corea",
+        "quality": 66.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de República de Corea",
+        "quality": 88.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de República de Corea",
+        "quality": 75.2,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "TÚN",
+    "name": "Túnez",
+    "confederation": "CAF",
+    "baseElo": 1847,
+    "optaRating": 72.1,
+    "socioScore": 5.4,
+    "isAcclimated": false,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 de Túnez",
+        "quality": 69.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Túnez",
+        "quality": 61.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Túnez",
+        "quality": 70.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Túnez",
+        "quality": 75.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Túnez",
+        "quality": 68.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Túnez",
+        "quality": 73.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Túnez",
+        "quality": 74.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Túnez",
+        "quality": 72.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Túnez",
+        "quality": 82.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Túnez",
+        "quality": 70.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Túnez",
+        "quality": 71.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Túnez",
+        "quality": 66.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Túnez",
+        "quality": 73.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Túnez",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Túnez",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Túnez",
+        "quality": 72.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Túnez",
+        "quality": 66.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Túnez",
+        "quality": 71.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Túnez",
+        "quality": 63.7,
         "status": "injured"
       },
       {
-        "name": "Pedri",
-        "quality": 89,
+        "name": "Jugador 20 de Túnez",
+        "quality": 74.4,
         "status": "active"
       },
       {
-        "name": "Álvaro Morata",
-        "quality": 85,
+        "name": "Jugador 21 de Túnez",
+        "quality": 74.9,
         "status": "active"
       },
       {
-        "name": "Aymeric Laporte",
-        "quality": 86,
+        "name": "Jugador 22 de Túnez",
+        "quality": 66.8,
         "status": "active"
       },
       {
-        "name": "Unai Simón",
-        "quality": 87,
+        "name": "Jugador 23 de Túnez",
+        "quality": 69.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Túnez",
+        "quality": 70.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Túnez",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Túnez",
+        "quality": 75.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "SUD",
+    "name": "Sudáfrica",
+    "confederation": "CAF",
+    "baseElo": 1820,
+    "optaRating": 71.6,
+    "socioScore": 6.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Sudáfrica",
+        "quality": 71.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Sudáfrica",
+        "quality": 64.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Sudáfrica",
+        "quality": 68.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Sudáfrica",
+        "quality": 68.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Sudáfrica",
+        "quality": 76.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Sudáfrica",
+        "quality": 61.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Sudáfrica",
+        "quality": 66.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Sudáfrica",
+        "quality": 64.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Sudáfrica",
+        "quality": 69.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Sudáfrica",
+        "quality": 74.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Sudáfrica",
+        "quality": 72.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Sudáfrica",
+        "quality": 70.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Sudáfrica",
+        "quality": 70.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Sudáfrica",
+        "quality": 71.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Sudáfrica",
+        "quality": 66.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Sudáfrica",
+        "quality": 73.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Sudáfrica",
+        "quality": 74.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Sudáfrica",
+        "quality": 72.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Sudáfrica",
+        "quality": 74.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Sudáfrica",
+        "quality": 68.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Sudáfrica",
+        "quality": 74.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Sudáfrica",
+        "quality": 76.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Sudáfrica",
+        "quality": 77.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Sudáfrica",
+        "quality": 70.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Sudáfrica",
+        "quality": 71.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Sudáfrica",
+        "quality": 71.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CAN",
+    "name": "Canadá",
+    "confederation": "CONCACAF",
+    "baseElo": 1778,
+    "optaRating": 77.5,
+    "socioScore": 5.2,
+    "isAcclimated": true,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Canadá",
+        "quality": 78.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Canadá",
+        "quality": 77.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Canadá",
+        "quality": 72.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Canadá",
+        "quality": 65.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Canadá",
+        "quality": 76.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Canadá",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Canadá",
+        "quality": 78.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Canadá",
+        "quality": 71.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Canadá",
+        "quality": 74.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Canadá",
+        "quality": 78.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Canadá",
+        "quality": 74.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Canadá",
+        "quality": 76.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Canadá",
+        "quality": 76.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Canadá",
+        "quality": 66.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Canadá",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Canadá",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Canadá",
+        "quality": 83.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Canadá",
+        "quality": 73.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Canadá",
+        "quality": 80.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Canadá",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Canadá",
+        "quality": 77.6,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 22 de Canadá",
+        "quality": 69.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Canadá",
+        "quality": 82.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Canadá",
+        "quality": 78.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Canadá",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Canadá",
+        "quality": 75.9,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "SUI",
+    "name": "Suiza",
+    "confederation": "UEFA",
+    "baseElo": 1920,
+    "optaRating": 83.0,
+    "socioScore": 9.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Suiza",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Suiza",
+        "quality": 85.9,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 3 de Suiza",
+        "quality": 90.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Suiza",
+        "quality": 77.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Suiza",
+        "quality": 92.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Suiza",
+        "quality": 80.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Suiza",
+        "quality": 78.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Suiza",
+        "quality": 83.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 9 de Suiza",
+        "quality": 77.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Suiza",
+        "quality": 82.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Suiza",
+        "quality": 84.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Suiza",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Suiza",
+        "quality": 88.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Suiza",
+        "quality": 83.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Suiza",
+        "quality": 92.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Suiza",
+        "quality": 78.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Suiza",
+        "quality": 76.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Suiza",
+        "quality": 87.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Suiza",
+        "quality": 89.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Suiza",
+        "quality": 89.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Suiza",
+        "quality": 81.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Suiza",
+        "quality": 80.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Suiza",
+        "quality": 86.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Suiza",
+        "quality": 82.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Suiza",
+        "quality": 88.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Suiza",
+        "quality": 81.1,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CAT",
+    "name": "Catar",
+    "confederation": "AFC",
+    "baseElo": 1657,
+    "optaRating": 72.1,
+    "socioScore": 8.1,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Catar",
+        "quality": 73.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Catar",
+        "quality": 71.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Catar",
+        "quality": 67.5,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 4 de Catar",
+        "quality": 68.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Catar",
+        "quality": 78.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Catar",
+        "quality": 77.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Catar",
+        "quality": 70.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Catar",
+        "quality": 70.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Catar",
+        "quality": 71.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Catar",
+        "quality": 73.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Catar",
+        "quality": 74.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Catar",
+        "quality": 70.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Catar",
+        "quality": 72.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Catar",
+        "quality": 76.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Catar",
+        "quality": 74.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Catar",
+        "quality": 71.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Catar",
+        "quality": 69.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Catar",
+        "quality": 75.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Catar",
+        "quality": 72.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Catar",
+        "quality": 80.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Catar",
+        "quality": 73.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Catar",
+        "quality": 68.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Catar",
+        "quality": 80.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Catar",
+        "quality": 72.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Catar",
+        "quality": 71.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Catar",
+        "quality": 78.6,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "BOS",
+    "name": "Bosnia y Herzegovina",
+    "confederation": "UEFA",
+    "baseElo": 1751,
+    "optaRating": 70.2,
+    "socioScore": 7.0,
+    "isAcclimated": false,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 de Bosnia y Herzegovina",
+        "quality": 70.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Bosnia y Herzegovina",
+        "quality": 66.7,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 3 de Bosnia y Herzegovina",
+        "quality": 68.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Bosnia y Herzegovina",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Bosnia y Herzegovina",
+        "quality": 62.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Bosnia y Herzegovina",
+        "quality": 66.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Bosnia y Herzegovina",
+        "quality": 68.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Bosnia y Herzegovina",
+        "quality": 68.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Bosnia y Herzegovina",
+        "quality": 76.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Bosnia y Herzegovina",
+        "quality": 62.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Bosnia y Herzegovina",
+        "quality": 74.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Bosnia y Herzegovina",
+        "quality": 68.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Bosnia y Herzegovina",
+        "quality": 69.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Bosnia y Herzegovina",
+        "quality": 66.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Bosnia y Herzegovina",
+        "quality": 65.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Bosnia y Herzegovina",
+        "quality": 75.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Bosnia y Herzegovina",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Bosnia y Herzegovina",
+        "quality": 67.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Bosnia y Herzegovina",
+        "quality": 79.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Bosnia y Herzegovina",
+        "quality": 69.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Bosnia y Herzegovina",
+        "quality": 75.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Bosnia y Herzegovina",
+        "quality": 81.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Bosnia y Herzegovina",
+        "quality": 66.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Bosnia y Herzegovina",
+        "quality": 68.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Bosnia y Herzegovina",
+        "quality": 74.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Bosnia y Herzegovina",
+        "quality": 73.2,
         "status": "active"
       }
     ]
@@ -50,92 +1139,3406 @@
     "id": "BRA",
     "name": "Brasil",
     "confederation": "CONMEBOL",
-    "baseElo": 2140,
-    "optaRating": 93.5,
-    "socioScore": 7.5,
-    "isAcclimated": false,
-    "playStyle": "high_press",
+    "baseElo": 2110,
+    "optaRating": 92.5,
+    "socioScore": 7.0,
+    "isAcclimated": true,
+    "playStyle": "possession",
     "roster": [
       {
         "name": "Vinícius Jr.",
-        "quality": 94,
+        "quality": 91.04759521606752,
         "status": "active"
       },
       {
         "name": "Rodrygo",
-        "quality": 89,
-        "status": "injured"
-      },
-      {
-        "name": "Neymar Jr.",
-        "quality": 90,
-        "status": "injured"
+        "quality": 89.38306319624994,
+        "status": "active"
       },
       {
         "name": "Alisson",
-        "quality": 90,
-        "status": "active"
-      },
-      {
-        "name": "Marquinhos",
-        "quality": 88,
-        "status": "active"
+        "quality": 94.65163851631195,
+        "status": "injured"
       },
       {
         "name": "Bruno Guimarães",
-        "quality": 87,
+        "quality": 95.4890909170255,
         "status": "active"
       },
       {
-        "name": "Raphinha",
-        "quality": 89,
+        "name": "Éder Militão",
+        "quality": 94.26738860679166,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Brasil",
+        "quality": 93.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Brasil",
+        "quality": 91.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Brasil",
+        "quality": 92.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Brasil",
+        "quality": 92.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Brasil",
+        "quality": 92.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 11 de Brasil",
+        "quality": 92.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Brasil",
+        "quality": 90.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Brasil",
+        "quality": 92.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Brasil",
+        "quality": 92.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Brasil",
+        "quality": 89.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Brasil",
+        "quality": 91.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Brasil",
+        "quality": 90.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Brasil",
+        "quality": 95.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Brasil",
+        "quality": 94.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Brasil",
+        "quality": 95.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Brasil",
+        "quality": 99.9,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 22 de Brasil",
+        "quality": 91.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 23 de Brasil",
+        "quality": 91.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Brasil",
+        "quality": 90.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Brasil",
+        "quality": 90.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Brasil",
+        "quality": 89.0,
         "status": "active"
       }
     ]
   },
   {
-    "id": "FRA",
-    "name": "Francia",
+    "id": "MAR",
+    "name": "Marruecos",
+    "confederation": "CAF",
+    "baseElo": 1950,
+    "optaRating": 85.0,
+    "socioScore": 6.0,
+    "isAcclimated": false,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 de Marruecos",
+        "quality": 76.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Marruecos",
+        "quality": 79.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Marruecos",
+        "quality": 84.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Marruecos",
+        "quality": 86.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Marruecos",
+        "quality": 89.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Marruecos",
+        "quality": 77.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Marruecos",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Marruecos",
+        "quality": 87.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Marruecos",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Marruecos",
+        "quality": 75.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Marruecos",
+        "quality": 86.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Marruecos",
+        "quality": 82.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Marruecos",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Marruecos",
+        "quality": 84.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Marruecos",
+        "quality": 83.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Marruecos",
+        "quality": 83.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Marruecos",
+        "quality": 89.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Marruecos",
+        "quality": 81.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Marruecos",
+        "quality": 90.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Marruecos",
+        "quality": 85.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Marruecos",
+        "quality": 85.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Marruecos",
+        "quality": 81.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Marruecos",
+        "quality": 87.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Marruecos",
+        "quality": 92.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Marruecos",
+        "quality": 86.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Marruecos",
+        "quality": 89.6,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ESC",
+    "name": "Escocia",
     "confederation": "UEFA",
-    "baseElo": 2100,
-    "optaRating": 92.0,
-    "socioScore": 9.0,
+    "baseElo": 1812,
+    "optaRating": 77.4,
+    "socioScore": 8.1,
     "isAcclimated": false,
     "playStyle": "high_press",
     "roster": [
       {
-        "name": "Kylian Mbappé",
-        "quality": 96,
+        "name": "Jugador 1 de Escocia",
+        "quality": 74.5,
         "status": "active"
       },
       {
-        "name": "Antoine Griezmann",
-        "quality": 90,
+        "name": "Jugador 2 de Escocia",
+        "quality": 84.5,
         "status": "active"
       },
       {
-        "name": "William Saliba",
-        "quality": 88,
+        "name": "Jugador 3 de Escocia",
+        "quality": 80.4,
         "status": "injured"
       },
       {
-        "name": "Mike Maignan",
-        "quality": 89,
+        "name": "Jugador 4 de Escocia",
+        "quality": 78.7,
         "status": "active"
       },
       {
-        "name": "Aurélien Tchouaméni",
-        "quality": 87,
+        "name": "Jugador 5 de Escocia",
+        "quality": 69.4,
         "status": "active"
       },
       {
-        "name": "Ousmane Dembélé",
-        "quality": 86,
+        "name": "Jugador 6 de Escocia",
+        "quality": 78.4,
         "status": "active"
       },
       {
-        "name": "Theo Hernández",
-        "quality": 87,
+        "name": "Jugador 7 de Escocia",
+        "quality": 81.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Escocia",
+        "quality": 84.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Escocia",
+        "quality": 76.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Escocia",
+        "quality": 76.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Escocia",
+        "quality": 84.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Escocia",
+        "quality": 77.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Escocia",
+        "quality": 80.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Escocia",
+        "quality": 81.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Escocia",
+        "quality": 82.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Escocia",
+        "quality": 77.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Escocia",
+        "quality": 79.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Escocia",
+        "quality": 78.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Escocia",
+        "quality": 75.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Escocia",
+        "quality": 75.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Escocia",
+        "quality": 71.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Escocia",
+        "quality": 75.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Escocia",
+        "quality": 81.4,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 24 de Escocia",
+        "quality": 75.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Escocia",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Escocia",
+        "quality": 78.2,
+        "status": "injured"
+      }
+    ]
+  },
+  {
+    "id": "HAI",
+    "name": "Haití",
+    "confederation": "CONCACAF",
+    "baseElo": 1729,
+    "optaRating": 74.8,
+    "socioScore": 6.5,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 de Haití",
+        "quality": 71.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Haití",
+        "quality": 76.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Haití",
+        "quality": 77.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Haití",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Haití",
+        "quality": 68.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Haití",
+        "quality": 78.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Haití",
+        "quality": 65.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Haití",
+        "quality": 80.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Haití",
+        "quality": 80.1,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 10 de Haití",
+        "quality": 77.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 11 de Haití",
+        "quality": 74.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Haití",
+        "quality": 83.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Haití",
+        "quality": 68.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Haití",
+        "quality": 77.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Haití",
+        "quality": 71.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Haití",
+        "quality": 76.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Haití",
+        "quality": 67.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Haití",
+        "quality": 77.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Haití",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Haití",
+        "quality": 72.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Haití",
+        "quality": 73.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Haití",
+        "quality": 77.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Haití",
+        "quality": 71.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Haití",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Haití",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Haití",
+        "quality": 74.3,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "EST",
+    "name": "Estados Unidos",
+    "confederation": "CONCACAF",
+    "baseElo": 1920,
+    "optaRating": 83.5,
+    "socioScore": 9.8,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Christian Pulisic",
+        "quality": 95.58228513019374,
+        "status": "active"
+      },
+      {
+        "name": "Weston McKennie",
+        "quality": 94.9343123156566,
+        "status": "active"
+      },
+      {
+        "name": "Tyler Adams",
+        "quality": 95.81161621278468,
+        "status": "active"
+      },
+      {
+        "name": "Folarin Balogun",
+        "quality": 91.37357697756713,
+        "status": "active"
+      },
+      {
+        "name": "Matt Turner",
+        "quality": 91.35858205442646,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Estados Unidos",
+        "quality": 80.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Estados Unidos",
+        "quality": 77.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Estados Unidos",
+        "quality": 86.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Estados Unidos",
+        "quality": 83.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Estados Unidos",
+        "quality": 81.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Estados Unidos",
+        "quality": 74.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Estados Unidos",
+        "quality": 89.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Estados Unidos",
+        "quality": 85.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Estados Unidos",
+        "quality": 79.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Estados Unidos",
+        "quality": 90.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Estados Unidos",
+        "quality": 82.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Estados Unidos",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Estados Unidos",
+        "quality": 76.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Estados Unidos",
+        "quality": 79.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Estados Unidos",
+        "quality": 80.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 21 de Estados Unidos",
+        "quality": 80.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Estados Unidos",
+        "quality": 82.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Estados Unidos",
+        "quality": 81.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Estados Unidos",
+        "quality": 77.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Estados Unidos",
+        "quality": 88.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 26 de Estados Unidos",
+        "quality": 83.3,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "TUR",
+    "name": "Turquía",
+    "confederation": "UEFA",
+    "baseElo": 1853,
+    "optaRating": 73.1,
+    "socioScore": 7.7,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Turquía",
+        "quality": 75.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Turquía",
+        "quality": 78.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Turquía",
+        "quality": 69.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Turquía",
+        "quality": 73.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Turquía",
+        "quality": 75.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Turquía",
+        "quality": 67.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Turquía",
+        "quality": 74.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Turquía",
+        "quality": 65.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Turquía",
+        "quality": 73.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Turquía",
+        "quality": 68.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Turquía",
+        "quality": 68.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Turquía",
+        "quality": 69.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Turquía",
+        "quality": 74.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Turquía",
+        "quality": 70.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Turquía",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Turquía",
+        "quality": 70.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Turquía",
+        "quality": 80.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Turquía",
+        "quality": 73.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Turquía",
+        "quality": 76.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Turquía",
+        "quality": 70.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Turquía",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Turquía",
+        "quality": 72.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Turquía",
+        "quality": 77.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Turquía",
+        "quality": 78.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Turquía",
+        "quality": 70.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 26 de Turquía",
+        "quality": 76.6,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "PAR",
+    "name": "Paraguay",
+    "confederation": "CONMEBOL",
+    "baseElo": 1755,
+    "optaRating": 79.8,
+    "socioScore": 5.5,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 de Paraguay",
+        "quality": 75.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Paraguay",
+        "quality": 84.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Paraguay",
+        "quality": 77.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Paraguay",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Paraguay",
+        "quality": 76.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Paraguay",
+        "quality": 77.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Paraguay",
+        "quality": 76.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Paraguay",
+        "quality": 87.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Paraguay",
+        "quality": 88.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Paraguay",
+        "quality": 81.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Paraguay",
+        "quality": 80.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Paraguay",
+        "quality": 74.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Paraguay",
+        "quality": 74.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Paraguay",
+        "quality": 80.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Paraguay",
+        "quality": 81.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Paraguay",
+        "quality": 84.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Paraguay",
+        "quality": 80.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Paraguay",
+        "quality": 83.4,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 19 de Paraguay",
+        "quality": 75.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Paraguay",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Paraguay",
+        "quality": 77.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Paraguay",
+        "quality": 80.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Paraguay",
+        "quality": 81.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Paraguay",
+        "quality": 73.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Paraguay",
+        "quality": 79.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Paraguay",
+        "quality": 78.3,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "confederation": "AFC",
+    "baseElo": 1793,
+    "optaRating": 70.5,
+    "socioScore": 6.4,
+    "isAcclimated": false,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 de Australia",
+        "quality": 69.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Australia",
+        "quality": 68.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Australia",
+        "quality": 73.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Australia",
+        "quality": 70.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Australia",
+        "quality": 75.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Australia",
+        "quality": 70.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Australia",
+        "quality": 72.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Australia",
+        "quality": 65.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Australia",
+        "quality": 66.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Australia",
+        "quality": 73.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Australia",
+        "quality": 68.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Australia",
+        "quality": 67.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Australia",
+        "quality": 68.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Australia",
+        "quality": 65.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Australia",
+        "quality": 69.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Australia",
+        "quality": 65.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 17 de Australia",
+        "quality": 73.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Australia",
+        "quality": 78.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Australia",
+        "quality": 72.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Australia",
+        "quality": 70.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Australia",
+        "quality": 67.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Australia",
+        "quality": 80.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Australia",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Australia",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Australia",
+        "quality": 70.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Australia",
+        "quality": 62.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ALE",
+    "name": "Alemania",
+    "confederation": "UEFA",
+    "baseElo": 2030,
+    "optaRating": 89.0,
+    "socioScore": 9.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Alemania",
+        "quality": 84.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Alemania",
+        "quality": 91.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Alemania",
+        "quality": 88.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Alemania",
+        "quality": 88.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Alemania",
+        "quality": 88.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Alemania",
+        "quality": 82.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Alemania",
+        "quality": 91.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Alemania",
+        "quality": 90.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Alemania",
+        "quality": 88.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Alemania",
+        "quality": 78.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Alemania",
+        "quality": 89.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Alemania",
+        "quality": 92.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Alemania",
+        "quality": 83.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Alemania",
+        "quality": 91.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Alemania",
+        "quality": 89.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Alemania",
+        "quality": 88.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Alemania",
+        "quality": 84.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Alemania",
+        "quality": 91.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Alemania",
+        "quality": 100.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Alemania",
+        "quality": 95.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Alemania",
+        "quality": 94.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Alemania",
+        "quality": 82.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Alemania",
+        "quality": 90.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Alemania",
+        "quality": 91.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Alemania",
+        "quality": 90.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Alemania",
+        "quality": 86.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "confederation": "CONMEBOL",
+    "baseElo": 1890,
+    "optaRating": 81.0,
+    "socioScore": 6.0,
+    "isAcclimated": true,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 de Ecuador",
+        "quality": 82.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Ecuador",
+        "quality": 83.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Ecuador",
+        "quality": 79.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Ecuador",
+        "quality": 82.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Ecuador",
+        "quality": 85.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Ecuador",
+        "quality": 82.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Ecuador",
+        "quality": 84.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Ecuador",
+        "quality": 85.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Ecuador",
+        "quality": 89.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Ecuador",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Ecuador",
+        "quality": 84.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Ecuador",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Ecuador",
+        "quality": 72.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Ecuador",
+        "quality": 85.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Ecuador",
+        "quality": 72.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Ecuador",
+        "quality": 70.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Ecuador",
+        "quality": 82.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Ecuador",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Ecuador",
+        "quality": 83.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Ecuador",
+        "quality": 79.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Ecuador",
+        "quality": 83.7,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 22 de Ecuador",
+        "quality": 81.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Ecuador",
+        "quality": 82.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Ecuador",
+        "quality": 80.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Ecuador",
+        "quality": 74.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Ecuador",
+        "quality": 78.3,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "COS",
+    "name": "Costa de Marfil",
+    "confederation": "CAF",
+    "baseElo": 1795,
+    "optaRating": 74.6,
+    "socioScore": 5.3,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 de Costa de Marfil",
+        "quality": 68.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Costa de Marfil",
+        "quality": 77.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Costa de Marfil",
+        "quality": 72.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Costa de Marfil",
+        "quality": 78.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Costa de Marfil",
+        "quality": 81.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Costa de Marfil",
+        "quality": 75.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Costa de Marfil",
+        "quality": 76.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Costa de Marfil",
+        "quality": 75.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Costa de Marfil",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Costa de Marfil",
+        "quality": 72.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Costa de Marfil",
+        "quality": 73.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Costa de Marfil",
+        "quality": 78.1,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 13 de Costa de Marfil",
+        "quality": 70.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Costa de Marfil",
+        "quality": 68.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Costa de Marfil",
+        "quality": 76.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Costa de Marfil",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Costa de Marfil",
+        "quality": 70.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Costa de Marfil",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Costa de Marfil",
+        "quality": 76.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 20 de Costa de Marfil",
+        "quality": 79.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Costa de Marfil",
+        "quality": 81.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Costa de Marfil",
+        "quality": 76.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Costa de Marfil",
+        "quality": 68.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Costa de Marfil",
+        "quality": 76.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Costa de Marfil",
+        "quality": 73.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Costa de Marfil",
+        "quality": 70.1,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CUR",
+    "name": "Curazao",
+    "confederation": "CONCACAF",
+    "baseElo": 1772,
+    "optaRating": 77.5,
+    "socioScore": 7.1,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 de Curazao",
+        "quality": 76.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Curazao",
+        "quality": 74.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Curazao",
+        "quality": 81.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Curazao",
+        "quality": 73.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Curazao",
+        "quality": 77.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Curazao",
+        "quality": 78.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Curazao",
+        "quality": 83.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Curazao",
+        "quality": 71.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Curazao",
+        "quality": 72.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Curazao",
+        "quality": 71.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Curazao",
+        "quality": 74.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Curazao",
+        "quality": 79.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Curazao",
+        "quality": 76.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Curazao",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Curazao",
+        "quality": 76.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Curazao",
+        "quality": 75.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Curazao",
+        "quality": 81.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Curazao",
+        "quality": 77.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Curazao",
+        "quality": 79.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Curazao",
+        "quality": 78.1,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 21 de Curazao",
+        "quality": 79.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Curazao",
+        "quality": 82.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Curazao",
+        "quality": 76.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Curazao",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Curazao",
+        "quality": 74.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Curazao",
+        "quality": 70.1,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "PAÍ",
+    "name": "Países Bajos",
+    "confederation": "UEFA",
+    "baseElo": 2020,
+    "optaRating": 88.5,
+    "socioScore": 9.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Países Bajos",
+        "quality": 88.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Países Bajos",
+        "quality": 78.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Países Bajos",
+        "quality": 86.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Países Bajos",
+        "quality": 96.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Países Bajos",
+        "quality": 88.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Países Bajos",
+        "quality": 88.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Países Bajos",
+        "quality": 89.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Países Bajos",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Países Bajos",
+        "quality": 85.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Países Bajos",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Países Bajos",
+        "quality": 83.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Países Bajos",
+        "quality": 82.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Países Bajos",
+        "quality": 90.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Países Bajos",
+        "quality": 87.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Países Bajos",
+        "quality": 89.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Países Bajos",
+        "quality": 88.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Países Bajos",
+        "quality": 90.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 18 de Países Bajos",
+        "quality": 82.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Países Bajos",
+        "quality": 91.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Países Bajos",
+        "quality": 81.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Países Bajos",
+        "quality": 92.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Países Bajos",
+        "quality": 90.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Países Bajos",
+        "quality": 92.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Países Bajos",
+        "quality": 86.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Países Bajos",
+        "quality": 91.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Países Bajos",
+        "quality": 90.6,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "JAP",
+    "name": "Japón",
+    "confederation": "AFC",
+    "baseElo": 1930,
+    "optaRating": 84.0,
+    "socioScore": 8.5,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 de Japón",
+        "quality": 80.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Japón",
+        "quality": 81.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Japón",
+        "quality": 78.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Japón",
+        "quality": 83.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Japón",
+        "quality": 84.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Japón",
+        "quality": 85.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Japón",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Japón",
+        "quality": 83.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Japón",
+        "quality": 90.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Japón",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Japón",
+        "quality": 82.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Japón",
+        "quality": 86.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Japón",
+        "quality": 87.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Japón",
+        "quality": 86.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Japón",
+        "quality": 85.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Japón",
+        "quality": 87.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Japón",
+        "quality": 81.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Japón",
+        "quality": 81.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Japón",
+        "quality": 79.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Japón",
+        "quality": 91.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Japón",
+        "quality": 75.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Japón",
+        "quality": 80.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Japón",
+        "quality": 88.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Japón",
+        "quality": 79.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Japón",
+        "quality": 83.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Japón",
+        "quality": 80.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "SUE",
+    "name": "Suecia",
+    "confederation": "UEFA",
+    "baseElo": 1883,
+    "optaRating": 74.1,
+    "socioScore": 7.6,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Suecia",
+        "quality": 67.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Suecia",
+        "quality": 77.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Suecia",
+        "quality": 78.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Suecia",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Suecia",
+        "quality": 79.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Suecia",
+        "quality": 69.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Suecia",
+        "quality": 68.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Suecia",
+        "quality": 77.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Suecia",
+        "quality": 76.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Suecia",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Suecia",
+        "quality": 72.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Suecia",
+        "quality": 74.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Suecia",
+        "quality": 85.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Suecia",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Suecia",
+        "quality": 72.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 16 de Suecia",
+        "quality": 73.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Suecia",
+        "quality": 82.7,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 18 de Suecia",
+        "quality": 72.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Suecia",
+        "quality": 78.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Suecia",
+        "quality": 73.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Suecia",
+        "quality": 71.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Suecia",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Suecia",
+        "quality": 69.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Suecia",
+        "quality": 78.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Suecia",
+        "quality": 75.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Suecia",
+        "quality": 71.5,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "OMÁ",
+    "name": "Omán",
+    "confederation": "AFC",
+    "baseElo": 1775,
+    "optaRating": 76.8,
+    "socioScore": 8.2,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Omán",
+        "quality": 74.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Omán",
+        "quality": 82.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Omán",
+        "quality": 73.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Omán",
+        "quality": 77.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Omán",
+        "quality": 80.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Omán",
+        "quality": 82.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Omán",
+        "quality": 73.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Omán",
+        "quality": 78.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Omán",
+        "quality": 77.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Omán",
+        "quality": 74.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Omán",
+        "quality": 79.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Omán",
+        "quality": 68.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Omán",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Omán",
+        "quality": 78.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Omán",
+        "quality": 78.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Omán",
+        "quality": 74.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Omán",
+        "quality": 74.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Omán",
+        "quality": 75.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Omán",
+        "quality": 80.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Omán",
+        "quality": 78.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Omán",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Omán",
+        "quality": 82.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Omán",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Omán",
+        "quality": 71.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Omán",
+        "quality": 74.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Omán",
+        "quality": 77.9,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "BÉL",
+    "name": "Bélgica",
+    "confederation": "UEFA",
+    "baseElo": 2010,
+    "optaRating": 87.0,
+    "socioScore": 9.0,
+    "isAcclimated": false,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 de Bélgica",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Bélgica",
+        "quality": 84.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Bélgica",
+        "quality": 88.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Bélgica",
+        "quality": 90.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Bélgica",
+        "quality": 84.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Bélgica",
+        "quality": 88.4,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 7 de Bélgica",
+        "quality": 86.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Bélgica",
+        "quality": 87.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Bélgica",
+        "quality": 88.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Bélgica",
+        "quality": 86.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Bélgica",
+        "quality": 89.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Bélgica",
+        "quality": 87.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Bélgica",
+        "quality": 84.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Bélgica",
+        "quality": 88.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Bélgica",
+        "quality": 86.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Bélgica",
+        "quality": 94.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Bélgica",
+        "quality": 84.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Bélgica",
+        "quality": 85.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Bélgica",
+        "quality": 80.2,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 20 de Bélgica",
+        "quality": 84.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 21 de Bélgica",
+        "quality": 85.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Bélgica",
+        "quality": 81.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Bélgica",
+        "quality": 87.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Bélgica",
+        "quality": 96.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Bélgica",
+        "quality": 83.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Bélgica",
+        "quality": 90.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "EGI",
+    "name": "Egipto",
+    "confederation": "CAF",
+    "baseElo": 1715,
+    "optaRating": 74.3,
+    "socioScore": 5.8,
+    "isAcclimated": false,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jugador 1 de Egipto",
+        "quality": 77.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Egipto",
+        "quality": 74.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Egipto",
+        "quality": 69.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Egipto",
+        "quality": 76.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Egipto",
+        "quality": 82.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Egipto",
+        "quality": 80.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Egipto",
+        "quality": 77.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Egipto",
+        "quality": 78.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Egipto",
+        "quality": 62.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Egipto",
+        "quality": 72.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Egipto",
+        "quality": 69.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Egipto",
+        "quality": 75.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Egipto",
+        "quality": 73.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Egipto",
+        "quality": 67.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Egipto",
+        "quality": 74.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Egipto",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Egipto",
+        "quality": 79.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Egipto",
+        "quality": 74.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Egipto",
+        "quality": 78.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Egipto",
+        "quality": 71.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Egipto",
+        "quality": 75.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Egipto",
+        "quality": 78.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Egipto",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Egipto",
+        "quality": 73.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Egipto",
+        "quality": 72.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Egipto",
+        "quality": 76.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "IRÁ",
+    "name": "Irán",
+    "confederation": "AFC",
+    "baseElo": 1689,
+    "optaRating": 73.7,
+    "socioScore": 5.4,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Irán",
+        "quality": 71.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Irán",
+        "quality": 78.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Irán",
+        "quality": 65.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Irán",
+        "quality": 77.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Irán",
+        "quality": 73.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Irán",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Irán",
+        "quality": 78.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Irán",
+        "quality": 75.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Irán",
+        "quality": 78.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Irán",
+        "quality": 71.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Irán",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Irán",
+        "quality": 72.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Irán",
+        "quality": 74.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Irán",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Irán",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Irán",
+        "quality": 66.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Irán",
+        "quality": 67.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Irán",
+        "quality": 79.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Irán",
+        "quality": 70.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Irán",
+        "quality": 72.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Irán",
+        "quality": 66.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Irán",
+        "quality": 75.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Irán",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Irán",
+        "quality": 78.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Irán",
+        "quality": 75.5,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 26 de Irán",
+        "quality": 75.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela",
+    "confederation": "CONMEBOL",
+    "baseElo": 1795,
+    "optaRating": 76.6,
+    "socioScore": 5.1,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 de Venezuela",
+        "quality": 76.3,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 2 de Venezuela",
+        "quality": 75.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Venezuela",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Venezuela",
+        "quality": 77.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Venezuela",
+        "quality": 74.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Venezuela",
+        "quality": 80.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Venezuela",
+        "quality": 75.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Venezuela",
+        "quality": 77.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Venezuela",
+        "quality": 77.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Venezuela",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Venezuela",
+        "quality": 76.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Venezuela",
+        "quality": 82.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Venezuela",
+        "quality": 75.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Venezuela",
+        "quality": 86.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Venezuela",
+        "quality": 74.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Venezuela",
+        "quality": 73.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Venezuela",
+        "quality": 74.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Venezuela",
+        "quality": 72.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Venezuela",
+        "quality": 82.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Venezuela",
+        "quality": 79.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Venezuela",
+        "quality": 76.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Venezuela",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Venezuela",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Venezuela",
+        "quality": 74.3,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 25 de Venezuela",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Venezuela",
+        "quality": 71.4,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ESP",
+    "name": "España",
+    "confederation": "UEFA",
+    "baseElo": 2080,
+    "optaRating": 91.5,
+    "socioScore": 8.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Rodri",
+        "quality": 89.11895334780087,
+        "status": "active"
+      },
+      {
+        "name": "Lamine Yamal",
+        "quality": 93.37742989810552,
+        "status": "active"
+      },
+      {
+        "name": "Pedri",
+        "quality": 95.4681498962052,
+        "status": "active"
+      },
+      {
+        "name": "Nico Williams",
+        "quality": 94.08387786737585,
+        "status": "active"
+      },
+      {
+        "name": "Unai Simón",
+        "quality": 93.2771379368378,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de España",
+        "quality": 87.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de España",
+        "quality": 88.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de España",
+        "quality": 94.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de España",
+        "quality": 98.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de España",
+        "quality": 88.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de España",
+        "quality": 91.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de España",
+        "quality": 93.6,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 13 de España",
+        "quality": 89.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de España",
+        "quality": 96.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de España",
+        "quality": 90.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de España",
+        "quality": 87.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de España",
+        "quality": 82.6,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 18 de España",
+        "quality": 90.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de España",
+        "quality": 94.5,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 20 de España",
+        "quality": 95.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de España",
+        "quality": 91.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de España",
+        "quality": 91.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de España",
+        "quality": 90.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de España",
+        "quality": 95.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de España",
+        "quality": 88.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de España",
+        "quality": 88.1,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ARA",
+    "name": "Arabia Saudita",
+    "confederation": "AFC",
+    "baseElo": 1725,
+    "optaRating": 77.6,
+    "socioScore": 7.8,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Arabia Saudita",
+        "quality": 84.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Arabia Saudita",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Arabia Saudita",
+        "quality": 74.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Arabia Saudita",
+        "quality": 72.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Arabia Saudita",
+        "quality": 79.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Arabia Saudita",
+        "quality": 65.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Arabia Saudita",
+        "quality": 76.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Arabia Saudita",
+        "quality": 76.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Arabia Saudita",
+        "quality": 79.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Arabia Saudita",
+        "quality": 72.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Arabia Saudita",
+        "quality": 81.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Arabia Saudita",
+        "quality": 75.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Arabia Saudita",
+        "quality": 85.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Arabia Saudita",
+        "quality": 83.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Arabia Saudita",
+        "quality": 80.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Arabia Saudita",
+        "quality": 72.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Arabia Saudita",
+        "quality": 78.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Arabia Saudita",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Arabia Saudita",
+        "quality": 81.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Arabia Saudita",
+        "quality": 77.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Arabia Saudita",
+        "quality": 83.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Arabia Saudita",
+        "quality": 73.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 23 de Arabia Saudita",
+        "quality": 73.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Arabia Saudita",
+        "quality": 79.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Arabia Saudita",
+        "quality": 75.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Arabia Saudita",
+        "quality": 81.2,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "CAB",
+    "name": "Cabo Verde",
+    "confederation": "CAF",
+    "baseElo": 1755,
+    "optaRating": 76.3,
+    "socioScore": 7.0,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Cabo Verde",
+        "quality": 78.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Cabo Verde",
+        "quality": 73.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Cabo Verde",
+        "quality": 76.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Cabo Verde",
+        "quality": 79.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Cabo Verde",
+        "quality": 77.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Cabo Verde",
+        "quality": 79.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Cabo Verde",
+        "quality": 72.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Cabo Verde",
+        "quality": 78.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Cabo Verde",
+        "quality": 78.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Cabo Verde",
+        "quality": 79.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Cabo Verde",
+        "quality": 79.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 12 de Cabo Verde",
+        "quality": 73.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Cabo Verde",
+        "quality": 84.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Cabo Verde",
+        "quality": 78.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Cabo Verde",
+        "quality": 82.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Cabo Verde",
+        "quality": 76.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Cabo Verde",
+        "quality": 80.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Cabo Verde",
+        "quality": 79.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Cabo Verde",
+        "quality": 78.1,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 20 de Cabo Verde",
+        "quality": 75.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Cabo Verde",
+        "quality": 79.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Cabo Verde",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Cabo Verde",
+        "quality": 81.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Cabo Verde",
+        "quality": 76.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Cabo Verde",
+        "quality": 76.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Cabo Verde",
+        "quality": 72.5,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "NUE",
+    "name": "Nueva Zelanda",
+    "confederation": "OFC",
+    "baseElo": 1600,
+    "optaRating": 70.3,
+    "socioScore": 5.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Nueva Zelanda",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Nueva Zelanda",
+        "quality": 68.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Nueva Zelanda",
+        "quality": 67.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Nueva Zelanda",
+        "quality": 62.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Nueva Zelanda",
+        "quality": 63.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Nueva Zelanda",
+        "quality": 75.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Nueva Zelanda",
+        "quality": 74.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Nueva Zelanda",
+        "quality": 61.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Nueva Zelanda",
+        "quality": 69.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Nueva Zelanda",
+        "quality": 76.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Nueva Zelanda",
+        "quality": 65.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Nueva Zelanda",
+        "quality": 68.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Nueva Zelanda",
+        "quality": 74.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Nueva Zelanda",
+        "quality": 75.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Nueva Zelanda",
+        "quality": 73.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Nueva Zelanda",
+        "quality": 61.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 17 de Nueva Zelanda",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Nueva Zelanda",
+        "quality": 61.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Nueva Zelanda",
+        "quality": 67.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Nueva Zelanda",
+        "quality": 67.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Nueva Zelanda",
+        "quality": 70.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Nueva Zelanda",
+        "quality": 67.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Nueva Zelanda",
+        "quality": 70.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Nueva Zelanda",
+        "quality": 67.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Nueva Zelanda",
+        "quality": 77.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Nueva Zelanda",
+        "quality": 69.5,
         "status": "active"
       }
     ]
@@ -146,797 +4549,138 @@
     "confederation": "CONMEBOL",
     "baseElo": 2150,
     "optaRating": 94.0,
-    "socioScore": 7.0,
-    "isAcclimated": false,
-    "playStyle": "possession",
+    "socioScore": 7.5,
+    "isAcclimated": true,
+    "playStyle": "high_press",
     "roster": [
       {
         "name": "Lionel Messi",
-        "quality": 94,
-        "status": "active"
-      },
-      {
-        "name": "Julián Álvarez",
-        "quality": 89,
+        "quality": 93.29980185417193,
         "status": "active"
       },
       {
         "name": "Emiliano Martínez",
-        "quality": 90,
+        "quality": 94.21780420377738,
         "status": "active"
       },
       {
-        "name": "Alexis Mac Allister",
-        "quality": 88,
+        "name": "Julián Álvarez",
+        "quality": 95.1728699037168,
         "status": "active"
       },
       {
         "name": "Enzo Fernández",
-        "quality": 87,
+        "quality": 91.16690815626727,
         "status": "active"
       },
       {
-        "name": "Cristian Romero",
-        "quality": 88,
+        "name": "Alexis Mac Allister",
+        "quality": 92.02374046647573,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Argentina",
+        "quality": 95.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Argentina",
+        "quality": 91.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Argentina",
+        "quality": 94.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Argentina",
+        "quality": 98.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Argentina",
+        "quality": 94.7,
         "status": "injured"
       },
       {
-        "name": "Rodrigo De Paul",
-        "quality": 86,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "MEX",
-    "name": "México",
-    "confederation": "CONCACAF",
-    "baseElo": 1900,
-    "optaRating": 82.0,
-    "socioScore": 6.5,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Santiago Giménez",
-        "quality": 84,
+        "name": "Jugador 11 de Argentina",
+        "quality": 91.6,
         "status": "active"
       },
       {
-        "name": "Edson Álvarez",
-        "quality": 83,
+        "name": "Jugador 12 de Argentina",
+        "quality": 95.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Argentina",
+        "quality": 92.8,
         "status": "injured"
       },
       {
-        "name": "Guillermo Ochoa",
-        "quality": 79,
+        "name": "Jugador 14 de Argentina",
+        "quality": 97.3,
         "status": "active"
       },
       {
-        "name": "Hirving Lozano",
-        "quality": 82,
+        "name": "Jugador 15 de Argentina",
+        "quality": 96.3,
         "status": "active"
       },
       {
-        "name": "Johan Vásquez",
-        "quality": 80,
+        "name": "Jugador 16 de Argentina",
+        "quality": 94.6,
         "status": "active"
       },
       {
-        "name": "Luis Chávez",
-        "quality": 80,
+        "name": "Jugador 17 de Argentina",
+        "quality": 93.6,
         "status": "active"
       },
       {
-        "name": "César Montes",
-        "quality": 81,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "ENG",
-    "name": "Inglaterra",
-    "confederation": "UEFA",
-    "baseElo": 2080,
-    "optaRating": 91.0,
-    "socioScore": 9.5,
-    "isAcclimated": false,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Harry Kane",
-        "quality": 93,
+        "name": "Jugador 18 de Argentina",
+        "quality": 95.3,
         "status": "active"
       },
       {
-        "name": "Jude Bellingham",
-        "quality": 94,
+        "name": "Jugador 19 de Argentina",
+        "quality": 97.9,
         "status": "active"
       },
       {
-        "name": "Phil Foden",
-        "quality": 90,
+        "name": "Jugador 20 de Argentina",
+        "quality": 95.0,
         "status": "active"
       },
       {
-        "name": "Declan Rice",
-        "quality": 89,
+        "name": "Jugador 21 de Argentina",
+        "quality": 99.3,
         "status": "active"
       },
       {
-        "name": "Bukayo Saka",
-        "quality": 90,
+        "name": "Jugador 22 de Argentina",
+        "quality": 97.9,
         "status": "active"
       },
       {
-        "name": "John Stones",
-        "quality": 87,
-        "status": "injured"
-      },
-      {
-        "name": "Luke Shaw",
-        "quality": 84,
-        "status": "injured"
-      }
-    ]
-  },
-  {
-    "id": "URU",
-    "name": "Uruguay",
-    "confederation": "CONMEBOL",
-    "baseElo": 1862,
-    "optaRating": 84.4,
-    "socioScore": 5.7,
-    "isAcclimated": true,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Jugador 1 Uruguay",
-        "quality": 85.9,
+        "name": "Jugador 23 de Argentina",
+        "quality": 100.3,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Uruguay",
-        "quality": 76.6,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "COL",
-    "name": "Colombia",
-    "confederation": "CONMEBOL",
-    "baseElo": 1948,
-    "optaRating": 87.7,
-    "socioScore": 7.4,
-    "isAcclimated": true,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Jugador 1 Colombia",
-        "quality": 86.3,
+        "name": "Jugador 24 de Argentina",
+        "quality": 92.1,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Colombia",
-        "quality": 87.6,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "ECU",
-    "name": "Ecuador",
-    "confederation": "CONMEBOL",
-    "baseElo": 1807,
-    "optaRating": 83.9,
-    "socioScore": 8.2,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Ecuador",
-        "quality": 83.7,
+        "name": "Jugador 25 de Argentina",
+        "quality": 89.1,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Ecuador",
-        "quality": 71.4,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "PER",
-    "name": "Perú",
-    "confederation": "CONMEBOL",
-    "baseElo": 2003,
-    "optaRating": 83.0,
-    "socioScore": 5.1,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Perú",
-        "quality": 72.2,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Perú",
-        "quality": 71.1,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "CHI",
-    "name": "Chile",
-    "confederation": "CONMEBOL",
-    "baseElo": 2049,
-    "optaRating": 80.7,
-    "socioScore": 6.6,
-    "isAcclimated": true,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Jugador 1 Chile",
-        "quality": 84.8,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Chile",
-        "quality": 74.5,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "EST",
-    "name": "Estados Unidos",
-    "confederation": "CONCACAF",
-    "baseElo": 1797,
-    "optaRating": 75.2,
-    "socioScore": 5.7,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Estados Unidos",
-        "quality": 76.6,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Estados Unidos",
-        "quality": 86.7,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "CAN",
-    "name": "Canadá",
-    "confederation": "CONCACAF",
-    "baseElo": 1878,
-    "optaRating": 75.7,
-    "socioScore": 8.6,
-    "isAcclimated": true,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Canadá",
-        "quality": 76.2,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Canadá",
-        "quality": 77.4,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "COS",
-    "name": "Costa Rica",
-    "confederation": "CONCACAF",
-    "baseElo": 1813,
-    "optaRating": 80.3,
-    "socioScore": 6.9,
-    "isAcclimated": true,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Costa Rica",
-        "quality": 81.4,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Costa Rica",
-        "quality": 70.5,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "PAN",
-    "name": "Panamá",
-    "confederation": "CONCACAF",
-    "baseElo": 1894,
-    "optaRating": 78.3,
-    "socioScore": 6.6,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Panamá",
-        "quality": 79.6,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Panamá",
-        "quality": 86.7,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "MAR",
-    "name": "Marruecos",
-    "confederation": "CAF",
-    "baseElo": 1713,
-    "optaRating": 77.2,
-    "socioScore": 7.2,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Marruecos",
-        "quality": 72.6,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Marruecos",
-        "quality": 82.0,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "SEN",
-    "name": "Senegal",
-    "confederation": "CAF",
-    "baseElo": 1695,
-    "optaRating": 73.5,
-    "socioScore": 7.7,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Senegal",
-        "quality": 86.4,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Senegal",
-        "quality": 70.3,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "EGI",
-    "name": "Egipto",
-    "confederation": "CAF",
-    "baseElo": 1833,
-    "optaRating": 73.8,
-    "socioScore": 6.4,
-    "isAcclimated": true,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Egipto",
-        "quality": 75.2,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Egipto",
-        "quality": 70.8,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "NIG",
-    "name": "Nigeria",
-    "confederation": "CAF",
-    "baseElo": 1785,
-    "optaRating": 73.1,
-    "socioScore": 5.7,
-    "isAcclimated": true,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Nigeria",
-        "quality": 78.2,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Nigeria",
-        "quality": 77.4,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "CAM",
-    "name": "Camerún",
-    "confederation": "CAF",
-    "baseElo": 1735,
-    "optaRating": 77.1,
-    "socioScore": 8.9,
-    "isAcclimated": true,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Camerún",
-        "quality": 71.5,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Camerún",
-        "quality": 71.7,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "COS",
-    "name": "Costa de Marfil",
-    "confederation": "CAF",
-    "baseElo": 1754,
-    "optaRating": 76.1,
-    "socioScore": 5.9,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Costa de Marfil",
-        "quality": 78.1,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Costa de Marfil",
-        "quality": 87.5,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "TÚN",
-    "name": "Túnez",
-    "confederation": "CAF",
-    "baseElo": 1606,
-    "optaRating": 72.7,
-    "socioScore": 7.6,
-    "isAcclimated": true,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Túnez",
-        "quality": 80.2,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Túnez",
-        "quality": 83.2,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "ARG",
-    "name": "Argelia",
-    "confederation": "CAF",
-    "baseElo": 1703,
-    "optaRating": 71.7,
-    "socioScore": 7.7,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Argelia",
-        "quality": 79.3,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Argelia",
-        "quality": 84.8,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "MAL",
-    "name": "Mali",
-    "confederation": "CAF",
-    "baseElo": 1753,
-    "optaRating": 70.8,
-    "socioScore": 6.5,
-    "isAcclimated": true,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Mali",
-        "quality": 82.9,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Mali",
-        "quality": 71.4,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "JAP",
-    "name": "Japón",
-    "confederation": "AFC",
-    "baseElo": 1699,
-    "optaRating": 76.9,
-    "socioScore": 8.8,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Japón",
-        "quality": 72.4,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Japón",
-        "quality": 76.5,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "COR",
-    "name": "Corea del Sur",
-    "confederation": "AFC",
-    "baseElo": 1610,
-    "optaRating": 72.5,
-    "socioScore": 7.5,
-    "isAcclimated": false,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Jugador 1 Corea del Sur",
-        "quality": 79.3,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Corea del Sur",
-        "quality": 71.4,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "IRÁ",
-    "name": "Irán",
-    "confederation": "AFC",
-    "baseElo": 1799,
-    "optaRating": 76.0,
-    "socioScore": 5.0,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Irán",
-        "quality": 72.2,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Irán",
-        "quality": 70.7,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "ARA",
-    "name": "Arabia Saudita",
-    "confederation": "AFC",
-    "baseElo": 1774,
-    "optaRating": 73.3,
-    "socioScore": 5.9,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Arabia Saudita",
-        "quality": 72.6,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Arabia Saudita",
-        "quality": 82.9,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "AUS",
-    "name": "Australia",
-    "confederation": "AFC",
-    "baseElo": 1825,
-    "optaRating": 72.6,
-    "socioScore": 5.6,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Australia",
-        "quality": 76.9,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Australia",
-        "quality": 76.2,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "CAT",
-    "name": "Catar",
-    "confederation": "AFC",
-    "baseElo": 1826,
-    "optaRating": 70.8,
-    "socioScore": 7.4,
-    "isAcclimated": false,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Jugador 1 Catar",
-        "quality": 75.9,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Catar",
-        "quality": 71.2,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "UZB",
-    "name": "Uzbekistán",
-    "confederation": "AFC",
-    "baseElo": 1686,
-    "optaRating": 74.8,
-    "socioScore": 6.5,
-    "isAcclimated": false,
-    "playStyle": "low_block",
-    "roster": [
-      {
-        "name": "Jugador 1 Uzbekistán",
-        "quality": 83.3,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Uzbekistán",
-        "quality": 75.8,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "IRA",
-    "name": "Irak",
-    "confederation": "AFC",
-    "baseElo": 1672,
-    "optaRating": 75.9,
-    "socioScore": 5.5,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Irak",
-        "quality": 80.2,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Irak",
-        "quality": 71.9,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "ALE",
-    "name": "Alemania",
-    "confederation": "UEFA",
-    "baseElo": 1832,
-    "optaRating": 87.6,
-    "socioScore": 6.6,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Alemania",
-        "quality": 75.8,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Alemania",
-        "quality": 81.1,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "POR",
-    "name": "Portugal",
-    "confederation": "UEFA",
-    "baseElo": 1800,
-    "optaRating": 84.5,
-    "socioScore": 8.1,
-    "isAcclimated": false,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Jugador 1 Portugal",
-        "quality": 76.3,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Portugal",
-        "quality": 77.8,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "ITA",
-    "name": "Italia",
-    "confederation": "UEFA",
-    "baseElo": 1997,
-    "optaRating": 83.3,
-    "socioScore": 8.8,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Italia",
-        "quality": 87.9,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Italia",
-        "quality": 82.4,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "PAÍ",
-    "name": "Países Bajos",
-    "confederation": "UEFA",
-    "baseElo": 1821,
-    "optaRating": 89.1,
-    "socioScore": 6.1,
-    "isAcclimated": false,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Jugador 1 Países Bajos",
-        "quality": 82.6,
-        "status": "active"
-      },
-      {
-        "name": "Jugador 2 Países Bajos",
-        "quality": 88.0,
+        "name": "Jugador 26 de Argentina",
+        "quality": 101.9,
         "status": "active"
       }
     ]
@@ -945,152 +4689,708 @@
     "id": "CRO",
     "name": "Croacia",
     "confederation": "UEFA",
-    "baseElo": 1908,
-    "optaRating": 88.6,
-    "socioScore": 6.7,
+    "baseElo": 1960,
+    "optaRating": 86.0,
+    "socioScore": 8.0,
     "isAcclimated": false,
     "playStyle": "possession",
     "roster": [
       {
-        "name": "Jugador 1 Croacia",
-        "quality": 77.0,
+        "name": "Jugador 1 de Croacia",
+        "quality": 83.4,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Croacia",
-        "quality": 85.4,
+        "name": "Jugador 2 de Croacia",
+        "quality": 89.4,
         "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "BÉL",
-    "name": "Bélgica",
-    "confederation": "UEFA",
-    "baseElo": 1912,
-    "optaRating": 82.0,
-    "socioScore": 8.6,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
+      },
       {
-        "name": "Jugador 1 Bélgica",
+        "name": "Jugador 3 de Croacia",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Croacia",
+        "quality": 87.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Croacia",
+        "quality": 86.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Croacia",
+        "quality": 83.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Croacia",
+        "quality": 85.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Croacia",
+        "quality": 83.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Croacia",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Croacia",
+        "quality": 78.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Croacia",
+        "quality": 91.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Croacia",
+        "quality": 82.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Croacia",
+        "quality": 84.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Croacia",
+        "quality": 87.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Croacia",
+        "quality": 83.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Croacia",
+        "quality": 92.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Croacia",
+        "quality": 86.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Croacia",
+        "quality": 88.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Croacia",
+        "quality": 80.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Croacia",
+        "quality": 88.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Croacia",
+        "quality": 87.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Croacia",
+        "quality": 80.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Croacia",
+        "quality": 86.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Croacia",
+        "quality": 77.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Croacia",
         "quality": 84.4,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Bélgica",
-        "quality": 76.4,
+        "name": "Jugador 26 de Croacia",
+        "quality": 83.5,
         "status": "active"
       }
     ]
   },
   {
-    "id": "DIN",
-    "name": "Dinamarca",
-    "confederation": "UEFA",
-    "baseElo": 1843,
-    "optaRating": 88.7,
-    "socioScore": 8.0,
+    "id": "MAL",
+    "name": "Mali",
+    "confederation": "CAF",
+    "baseElo": 1718,
+    "optaRating": 70.2,
+    "socioScore": 6.8,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 de Mali",
+        "quality": 63.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Mali",
+        "quality": 66.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Mali",
+        "quality": 76.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Mali",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Mali",
+        "quality": 73.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Mali",
+        "quality": 72.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Mali",
+        "quality": 66.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Mali",
+        "quality": 72.9,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 9 de Mali",
+        "quality": 64.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Mali",
+        "quality": 62.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Mali",
+        "quality": 67.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Mali",
+        "quality": 62.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Mali",
+        "quality": 69.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Mali",
+        "quality": 69.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Mali",
+        "quality": 63.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Mali",
+        "quality": 70.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Mali",
+        "quality": 71.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Mali",
+        "quality": 76.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Mali",
+        "quality": 66.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Mali",
+        "quality": 68.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Mali",
+        "quality": 70.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Mali",
+        "quality": 68.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Mali",
+        "quality": 65.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Mali",
+        "quality": 69.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Mali",
+        "quality": 70.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Mali",
+        "quality": 71.6,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistán",
+    "confederation": "AFC",
+    "baseElo": 1798,
+    "optaRating": 71.6,
+    "socioScore": 7.0,
     "isAcclimated": false,
     "playStyle": "high_press",
     "roster": [
       {
-        "name": "Jugador 1 Dinamarca",
+        "name": "Jugador 1 de Uzbekistán",
+        "quality": 76.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Uzbekistán",
+        "quality": 69.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Uzbekistán",
+        "quality": 74.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Uzbekistán",
+        "quality": 70.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Uzbekistán",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Uzbekistán",
+        "quality": 74.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Uzbekistán",
+        "quality": 70.3,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 8 de Uzbekistán",
+        "quality": 70.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Uzbekistán",
+        "quality": 72.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Uzbekistán",
+        "quality": 67.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Uzbekistán",
+        "quality": 72.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Uzbekistán",
+        "quality": 73.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Uzbekistán",
+        "quality": 75.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Uzbekistán",
+        "quality": 71.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Uzbekistán",
+        "quality": 66.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Uzbekistán",
+        "quality": 66.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Uzbekistán",
+        "quality": 79.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Uzbekistán",
         "quality": 78.5,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Dinamarca",
-        "quality": 84.8,
+        "name": "Jugador 19 de Uzbekistán",
+        "quality": 72.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Uzbekistán",
+        "quality": 75.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Uzbekistán",
+        "quality": 75.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Uzbekistán",
+        "quality": 70.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Uzbekistán",
+        "quality": 72.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Uzbekistán",
+        "quality": 71.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Uzbekistán",
+        "quality": 76.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Uzbekistán",
+        "quality": 69.8,
         "status": "active"
       }
     ]
   },
   {
-    "id": "SUI",
-    "name": "Suiza",
+    "id": "FRA",
+    "name": "Francia",
     "confederation": "UEFA",
-    "baseElo": 1981,
-    "optaRating": 85.9,
-    "socioScore": 6.6,
+    "baseElo": 2120,
+    "optaRating": 93.0,
+    "socioScore": 9.0,
     "isAcclimated": false,
-    "playStyle": "high_press",
+    "playStyle": "low_block",
     "roster": [
       {
-        "name": "Jugador 1 Suiza",
-        "quality": 76.6,
+        "name": "Kylian Mbappé",
+        "quality": 88.47528332777583,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Suiza",
-        "quality": 76.4,
+        "name": "Antoine Griezmann",
+        "quality": 93.71405012649073,
+        "status": "active"
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "quality": 91.21369820301427,
+        "status": "active"
+      },
+      {
+        "name": "William Saliba",
+        "quality": 94.51252001882943,
+        "status": "active"
+      },
+      {
+        "name": "Mike Maignan",
+        "quality": 93.60187966812593,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Francia",
+        "quality": 96.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Francia",
+        "quality": 84.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Francia",
+        "quality": 95.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Francia",
+        "quality": 88.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Francia",
+        "quality": 92.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Francia",
+        "quality": 96.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Francia",
+        "quality": 90.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Francia",
+        "quality": 97.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Francia",
+        "quality": 98.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Francia",
+        "quality": 88.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Francia",
+        "quality": 88.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Francia",
+        "quality": 88.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Francia",
+        "quality": 97.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Francia",
+        "quality": 88.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Francia",
+        "quality": 93.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Francia",
+        "quality": 97.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Francia",
+        "quality": 101.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Francia",
+        "quality": 92.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Francia",
+        "quality": 95.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Francia",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Francia",
+        "quality": 89.2,
         "status": "active"
       }
     ]
   },
   {
-    "id": "SER",
-    "name": "Serbia",
-    "confederation": "UEFA",
-    "baseElo": 1805,
-    "optaRating": 84.8,
-    "socioScore": 5.9,
-    "isAcclimated": false,
-    "playStyle": "possession",
+    "id": "COL",
+    "name": "Colombia",
+    "confederation": "CONMEBOL",
+    "baseElo": 1980,
+    "optaRating": 86.5,
+    "socioScore": 6.5,
+    "isAcclimated": true,
+    "playStyle": "low_block",
     "roster": [
       {
-        "name": "Jugador 1 Serbia",
-        "quality": 78.9,
+        "name": "Luis Díaz",
+        "quality": 92.12241873204827,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Serbia",
-        "quality": 77.7,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "POL",
-    "name": "Polonia",
-    "confederation": "UEFA",
-    "baseElo": 2023,
-    "optaRating": 84.8,
-    "socioScore": 7.1,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Polonia",
-        "quality": 70.5,
+        "name": "James Rodríguez",
+        "quality": 91.37969422934242,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Polonia",
-        "quality": 79.3,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "UCR",
-    "name": "Ucrania",
-    "confederation": "UEFA",
-    "baseElo": 1888,
-    "optaRating": 87.8,
-    "socioScore": 7.3,
-    "isAcclimated": false,
-    "playStyle": "high_press",
-    "roster": [
-      {
-        "name": "Jugador 1 Ucrania",
-        "quality": 75.7,
+        "name": "Jhon Arias",
+        "quality": 90.48432487512993,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Ucrania",
-        "quality": 72.1,
+        "name": "Daniel Muñoz",
+        "quality": 91.48840810438541,
+        "status": "active"
+      },
+      {
+        "name": "Camilo Vargas",
+        "quality": 90.15897217354639,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Colombia",
+        "quality": 89.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Colombia",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Colombia",
+        "quality": 86.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Colombia",
+        "quality": 85.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Colombia",
+        "quality": 83.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 11 de Colombia",
+        "quality": 86.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Colombia",
+        "quality": 89.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Colombia",
+        "quality": 92.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Colombia",
+        "quality": 88.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Colombia",
+        "quality": 85.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Colombia",
+        "quality": 88.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Colombia",
+        "quality": 87.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Colombia",
+        "quality": 87.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Colombia",
+        "quality": 89.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Colombia",
+        "quality": 95.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Colombia",
+        "quality": 88.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Colombia",
+        "quality": 94.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Colombia",
+        "quality": 93.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Colombia",
+        "quality": 76.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Colombia",
+        "quality": 86.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Colombia",
+        "quality": 81.5,
         "status": "active"
       }
     ]
@@ -1099,108 +5399,1418 @@
     "id": "GAL",
     "name": "Gales",
     "confederation": "UEFA",
-    "baseElo": 1809,
-    "optaRating": 85.0,
+    "baseElo": 1887,
+    "optaRating": 77.9,
+    "socioScore": 7.5,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Gales",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Gales",
+        "quality": 78.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Gales",
+        "quality": 71.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Gales",
+        "quality": 74.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Gales",
+        "quality": 70.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Gales",
+        "quality": 75.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Gales",
+        "quality": 80.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Gales",
+        "quality": 76.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Gales",
+        "quality": 81.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Gales",
+        "quality": 78.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Gales",
+        "quality": 69.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Gales",
+        "quality": 78.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Gales",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Gales",
+        "quality": 80.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Gales",
+        "quality": 80.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Gales",
+        "quality": 79.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Gales",
+        "quality": 81.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Gales",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Gales",
+        "quality": 70.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Gales",
+        "quality": 78.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Gales",
+        "quality": 76.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Gales",
+        "quality": 75.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Gales",
+        "quality": 72.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Gales",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Gales",
+        "quality": 87.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Gales",
+        "quality": 76.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "IRA",
+    "name": "Irak",
+    "confederation": "AFC",
+    "baseElo": 1773,
+    "optaRating": 77.6,
+    "socioScore": 8.3,
+    "isAcclimated": false,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Jugador 1 de Irak",
+        "quality": 77.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Irak",
+        "quality": 82.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Irak",
+        "quality": 79.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Irak",
+        "quality": 77.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Irak",
+        "quality": 81.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Irak",
+        "quality": 82.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Irak",
+        "quality": 84.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Irak",
+        "quality": 81.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Irak",
+        "quality": 77.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Irak",
+        "quality": 78.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Irak",
+        "quality": 70.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Irak",
+        "quality": 79.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Irak",
+        "quality": 77.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 14 de Irak",
+        "quality": 78.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Irak",
+        "quality": 84.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Irak",
+        "quality": 84.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Irak",
+        "quality": 85.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Irak",
+        "quality": 81.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Irak",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Irak",
+        "quality": 74.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Irak",
+        "quality": 83.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Irak",
+        "quality": 75.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Irak",
+        "quality": 81.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Irak",
+        "quality": 79.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Irak",
+        "quality": 75.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Irak",
+        "quality": 77.6,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "ING",
+    "name": "Inglaterra",
+    "confederation": "UEFA",
+    "baseElo": 2070,
+    "optaRating": 91.0,
+    "socioScore": 9.5,
+    "isAcclimated": false,
+    "playStyle": "low_block",
+    "roster": [
+      {
+        "name": "Jude Bellingham",
+        "quality": 92.86235231271496,
+        "status": "active"
+      },
+      {
+        "name": "Harry Kane",
+        "quality": 92.8685064214249,
+        "status": "active"
+      },
+      {
+        "name": "Phil Foden",
+        "quality": 94.09552027972762,
+        "status": "active"
+      },
+      {
+        "name": "Declan Rice",
+        "quality": 91.077522149571,
+        "status": "active"
+      },
+      {
+        "name": "Bukayo Saka",
+        "quality": 92.56129268974927,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Inglaterra",
+        "quality": 92.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Inglaterra",
+        "quality": 93.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Inglaterra",
+        "quality": 90.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Inglaterra",
+        "quality": 93.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Inglaterra",
+        "quality": 86.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Inglaterra",
+        "quality": 90.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Inglaterra",
+        "quality": 94.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Inglaterra",
+        "quality": 91.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Inglaterra",
+        "quality": 95.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Inglaterra",
+        "quality": 88.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Inglaterra",
+        "quality": 91.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Inglaterra",
+        "quality": 91.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Inglaterra",
+        "quality": 89.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Inglaterra",
+        "quality": 94.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Inglaterra",
+        "quality": 87.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Inglaterra",
+        "quality": 92.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Inglaterra",
+        "quality": 89.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Inglaterra",
+        "quality": 93.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 24 de Inglaterra",
+        "quality": 90.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Inglaterra",
+        "quality": 92.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Inglaterra",
+        "quality": 92.5,
+        "status": "injured"
+      }
+    ]
+  },
+  {
+    "id": "URU",
+    "name": "Uruguay",
+    "confederation": "CONMEBOL",
+    "baseElo": 2000,
+    "optaRating": 87.5,
+    "socioScore": 7.0,
+    "isAcclimated": true,
+    "playStyle": "possession",
+    "roster": [
+      {
+        "name": "Federico Valverde",
+        "quality": 89.16662577840889,
+        "status": "injured"
+      },
+      {
+        "name": "Darwin Núñez",
+        "quality": 94.47865869375747,
+        "status": "active"
+      },
+      {
+        "name": "Ronald Araújo",
+        "quality": 90.79746157113004,
+        "status": "active"
+      },
+      {
+        "name": "Manuel Ugarte",
+        "quality": 89.61491283845629,
+        "status": "active"
+      },
+      {
+        "name": "Sergio Rochet",
+        "quality": 95.78664293513637,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Uruguay",
+        "quality": 86.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Uruguay",
+        "quality": 85.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 8 de Uruguay",
+        "quality": 92.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Uruguay",
+        "quality": 87.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Uruguay",
+        "quality": 86.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Uruguay",
+        "quality": 78.4,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 12 de Uruguay",
+        "quality": 90.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Uruguay",
+        "quality": 89.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Uruguay",
+        "quality": 90.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Uruguay",
+        "quality": 92.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Uruguay",
+        "quality": 83.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Uruguay",
+        "quality": 81.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Uruguay",
+        "quality": 96.7,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 19 de Uruguay",
+        "quality": 92.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Uruguay",
+        "quality": 88.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Uruguay",
+        "quality": 86.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Uruguay",
+        "quality": 91.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Uruguay",
+        "quality": 82.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Uruguay",
+        "quality": 86.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Uruguay",
+        "quality": 88.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Uruguay",
+        "quality": 80.7,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "NIG",
+    "name": "Nigeria",
+    "confederation": "CAF",
+    "baseElo": 1842,
+    "optaRating": 79.4,
+    "socioScore": 5.3,
+    "isAcclimated": false,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Nigeria",
+        "quality": 78.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Nigeria",
+        "quality": 83.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Nigeria",
+        "quality": 78.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Nigeria",
+        "quality": 79.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Nigeria",
+        "quality": 78.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Nigeria",
+        "quality": 84.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Nigeria",
+        "quality": 80.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Nigeria",
+        "quality": 81.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Nigeria",
+        "quality": 77.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Nigeria",
+        "quality": 71.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Nigeria",
+        "quality": 79.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Nigeria",
+        "quality": 80.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Nigeria",
+        "quality": 92.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Nigeria",
+        "quality": 76.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Nigeria",
+        "quality": 76.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Nigeria",
+        "quality": 82.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Nigeria",
+        "quality": 78.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Nigeria",
+        "quality": 80.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Nigeria",
+        "quality": 75.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Nigeria",
+        "quality": 79.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Nigeria",
+        "quality": 79.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Nigeria",
+        "quality": 77.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Nigeria",
+        "quality": 81.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Nigeria",
+        "quality": 81.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Nigeria",
+        "quality": 77.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Nigeria",
+        "quality": 76.8,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "EMI",
+    "name": "Emiratos Árabes Unidos",
+    "confederation": "AFC",
+    "baseElo": 1719,
+    "optaRating": 74.7,
     "socioScore": 5.4,
     "isAcclimated": false,
     "playStyle": "possession",
     "roster": [
       {
-        "name": "Jugador 1 Gales",
+        "name": "Jugador 1 de Emiratos Árabes Unidos",
+        "quality": 71.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Emiratos Árabes Unidos",
+        "quality": 62.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Emiratos Árabes Unidos",
+        "quality": 71.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Emiratos Árabes Unidos",
         "quality": 79.0,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Gales",
-        "quality": 71.2,
-        "status": "active"
-      }
-    ]
-  },
-  {
-    "id": "SUE",
-    "name": "Suecia",
-    "confederation": "UEFA",
-    "baseElo": 2016,
-    "optaRating": 86.5,
-    "socioScore": 7.2,
-    "isAcclimated": false,
-    "playStyle": "possession",
-    "roster": [
-      {
-        "name": "Jugador 1 Suecia",
-        "quality": 83.0,
+        "name": "Jugador 5 de Emiratos Árabes Unidos",
+        "quality": 83.2,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Suecia",
-        "quality": 72.3,
+        "name": "Jugador 6 de Emiratos Árabes Unidos",
+        "quality": 75.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 7 de Emiratos Árabes Unidos",
+        "quality": 79.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Emiratos Árabes Unidos",
+        "quality": 70.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Emiratos Árabes Unidos",
+        "quality": 69.8,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 10 de Emiratos Árabes Unidos",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Emiratos Árabes Unidos",
+        "quality": 74.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Emiratos Árabes Unidos",
+        "quality": 75.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Emiratos Árabes Unidos",
+        "quality": 71.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Emiratos Árabes Unidos",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Emiratos Árabes Unidos",
+        "quality": 77.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Emiratos Árabes Unidos",
+        "quality": 72.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Emiratos Árabes Unidos",
+        "quality": 77.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Emiratos Árabes Unidos",
+        "quality": 69.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Emiratos Árabes Unidos",
+        "quality": 69.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Emiratos Árabes Unidos",
+        "quality": 78.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Emiratos Árabes Unidos",
+        "quality": 70.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Emiratos Árabes Unidos",
+        "quality": 71.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Emiratos Árabes Unidos",
+        "quality": 67.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Emiratos Árabes Unidos",
+        "quality": 81.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Emiratos Árabes Unidos",
+        "quality": 75.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Emiratos Árabes Unidos",
+        "quality": 78.6,
         "status": "active"
       }
     ]
   },
   {
-    "id": "AUS",
-    "name": "Austria",
+    "id": "POR",
+    "name": "Portugal",
     "confederation": "UEFA",
-    "baseElo": 1849,
-    "optaRating": 88.8,
-    "socioScore": 5.2,
+    "baseElo": 2050,
+    "optaRating": 90.0,
+    "socioScore": 8.5,
     "isAcclimated": false,
     "playStyle": "high_press",
     "roster": [
       {
-        "name": "Jugador 1 Austria",
+        "name": "Cristiano Ronaldo",
+        "quality": 90.09649698052698,
+        "status": "active"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "quality": 88.22173682125444,
+        "status": "active"
+      },
+      {
+        "name": "Bernardo Silva",
+        "quality": 91.31025879262674,
+        "status": "active"
+      },
+      {
+        "name": "Rúben Dias",
+        "quality": 89.79753717644482,
+        "status": "active"
+      },
+      {
+        "name": "Rafael Leão",
+        "quality": 91.91518024365925,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 6 de Portugal",
+        "quality": 91.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Portugal",
+        "quality": 90.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Portugal",
+        "quality": 91.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Portugal",
+        "quality": 86.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Portugal",
+        "quality": 89.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Portugal",
+        "quality": 92.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Portugal",
+        "quality": 85.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Portugal",
         "quality": 83.9,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Austria",
-        "quality": 82.5,
+        "name": "Jugador 14 de Portugal",
+        "quality": 89.2,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 15 de Portugal",
+        "quality": 83.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Portugal",
+        "quality": 84.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Portugal",
+        "quality": 88.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Portugal",
+        "quality": 97.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Portugal",
+        "quality": 100.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Portugal",
+        "quality": 89.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Portugal",
+        "quality": 84.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Portugal",
+        "quality": 94.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Portugal",
+        "quality": 87.2,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 24 de Portugal",
+        "quality": 87.7,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 25 de Portugal",
+        "quality": 100.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Portugal",
+        "quality": 78.2,
         "status": "active"
       }
     ]
   },
   {
-    "id": "NUE",
-    "name": "Nueva Zelanda",
-    "confederation": "OFC",
-    "baseElo": 1870,
-    "optaRating": 80.7,
-    "socioScore": 7.0,
+    "id": "SEN",
+    "name": "Senegal",
+    "confederation": "CAF",
+    "baseElo": 1880,
+    "optaRating": 80.5,
+    "socioScore": 5.5,
     "isAcclimated": false,
     "playStyle": "high_press",
     "roster": [
       {
-        "name": "Jugador 1 Nueva Zelanda",
-        "quality": 84.3,
+        "name": "Jugador 1 de Senegal",
+        "quality": 75.7,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Nueva Zelanda",
-        "quality": 85.8,
+        "name": "Jugador 2 de Senegal",
+        "quality": 77.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Senegal",
+        "quality": 83.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Senegal",
+        "quality": 77.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Senegal",
+        "quality": 74.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Senegal",
+        "quality": 75.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Senegal",
+        "quality": 77.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Senegal",
+        "quality": 84.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Senegal",
+        "quality": 86.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Senegal",
+        "quality": 82.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Senegal",
+        "quality": 76.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Senegal",
+        "quality": 83.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Senegal",
+        "quality": 79.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Senegal",
+        "quality": 78.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Senegal",
+        "quality": 81.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Senegal",
+        "quality": 75.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Senegal",
+        "quality": 80.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Senegal",
+        "quality": 79.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Senegal",
+        "quality": 80.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Senegal",
+        "quality": 77.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Senegal",
+        "quality": 74.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Senegal",
+        "quality": 87.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Senegal",
+        "quality": 81.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Senegal",
+        "quality": 73.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Senegal",
+        "quality": 82.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Senegal",
+        "quality": 84.2,
         "status": "active"
       }
     ]
   },
   {
-    "id": "TUR",
-    "name": "Turquía",
+    "id": "POL",
+    "name": "Polonia",
     "confederation": "UEFA",
-    "baseElo": 1912,
-    "optaRating": 86.1,
+    "baseElo": 1789,
+    "optaRating": 71.5,
     "socioScore": 7.9,
     "isAcclimated": false,
     "playStyle": "possession",
     "roster": [
       {
-        "name": "Jugador 1 Turquía",
+        "name": "Jugador 1 de Polonia",
+        "quality": 66.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 2 de Polonia",
+        "quality": 78.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Polonia",
+        "quality": 70.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Polonia",
+        "quality": 68.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Polonia",
+        "quality": 68.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Polonia",
+        "quality": 68.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Polonia",
+        "quality": 72.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Polonia",
+        "quality": 73.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Polonia",
+        "quality": 70.6,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 10 de Polonia",
+        "quality": 69.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Polonia",
+        "quality": 69.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Polonia",
+        "quality": 77.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Polonia",
+        "quality": 74.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Polonia",
+        "quality": 71.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Polonia",
+        "quality": 72.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Polonia",
+        "quality": 75.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Polonia",
+        "quality": 73.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Polonia",
+        "quality": 67.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Polonia",
+        "quality": 71.1,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Polonia",
+        "quality": 72.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Polonia",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Polonia",
+        "quality": 64.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Polonia",
         "quality": 76.4,
         "status": "active"
       },
       {
-        "name": "Jugador 2 Turquía",
-        "quality": 79.8,
+        "name": "Jugador 24 de Polonia",
+        "quality": 71.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Polonia",
+        "quality": 73.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Polonia",
+        "quality": 65.2,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "PAN",
+    "name": "Panamá",
+    "confederation": "CONCACAF",
+    "baseElo": 1812,
+    "optaRating": 76.0,
+    "socioScore": 8.0,
+    "isAcclimated": true,
+    "playStyle": "high_press",
+    "roster": [
+      {
+        "name": "Jugador 1 de Panamá",
+        "quality": 78.0,
+        "status": "injured"
+      },
+      {
+        "name": "Jugador 2 de Panamá",
+        "quality": 75.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 3 de Panamá",
+        "quality": 76.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 4 de Panamá",
+        "quality": 77.2,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 5 de Panamá",
+        "quality": 73.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 6 de Panamá",
+        "quality": 81.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 7 de Panamá",
+        "quality": 73.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 8 de Panamá",
+        "quality": 83.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 9 de Panamá",
+        "quality": 76.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 10 de Panamá",
+        "quality": 80.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 11 de Panamá",
+        "quality": 76.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 12 de Panamá",
+        "quality": 80.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 13 de Panamá",
+        "quality": 74.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 14 de Panamá",
+        "quality": 81.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 15 de Panamá",
+        "quality": 75.6,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 16 de Panamá",
+        "quality": 75.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 17 de Panamá",
+        "quality": 74.5,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 18 de Panamá",
+        "quality": 84.0,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 19 de Panamá",
+        "quality": 76.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 20 de Panamá",
+        "quality": 70.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 21 de Panamá",
+        "quality": 70.3,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 22 de Panamá",
+        "quality": 82.7,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 23 de Panamá",
+        "quality": 83.4,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 24 de Panamá",
+        "quality": 75.8,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 25 de Panamá",
+        "quality": 72.9,
+        "status": "active"
+      },
+      {
+        "name": "Jugador 26 de Panamá",
+        "quality": 70.2,
         "status": "active"
       }
     ]

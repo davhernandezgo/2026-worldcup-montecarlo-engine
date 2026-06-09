@@ -103,6 +103,7 @@ type BacktestResponse struct {
 	ChampionCounts        map[string]int `json:"champion_counts"`
 	AverageSurpriseFactor float64        `json:"average_surprise_factor"`
 	ExecutionTimeMs       int64          `json:"execution_time_ms"`
+	MostProbableTournament TournamentResponse `json:"most_probable_tournament"`
 }
 
 type SimulationLog struct {
@@ -236,6 +237,12 @@ func main() {
 		close(jobs)
 		wg.Wait()
 		
+		// Run a deterministic simulation to get the "Most Probable Bracket"
+		// We set RandomWeight to 0 so it's a pure mathematical expectation
+		deterministicWeights := req.Weights
+		deterministicWeights.RandomWeight = 0.0
+		mostProbable := simulateTournament(deterministicWeights)
+		
 		execTime := time.Since(start).Milliseconds()
 		avgSurprise := 1.0 - (totalConfidence / float64(totalSims))
 		
@@ -244,6 +251,7 @@ func main() {
 			ChampionCounts:        championCounts,
 			AverageSurpriseFactor: avgSurprise,
 			ExecutionTimeMs:       execTime,
+			MostProbableTournament: mostProbable,
 		})
 	})
 
@@ -277,8 +285,12 @@ func simulateMatchConcurrent(req SimulationRequest, teamA, teamB TeamStats, iter
 
 				finalA, finalB := scoreA*rngA, scoreB*rngB
 
-				gA := math.Max(0, (finalA-finalB)/500.0+1.1+localRand.NormFloat64()*0.8)
-				gB := math.Max(0, (finalB-finalA)/500.0+1.1+localRand.NormFloat64()*0.8)
+				noise := 0.0
+				if req.RandomWeight > 0 {
+					noise = localRand.NormFloat64()*0.8
+				}
+				gA := math.Max(0, (finalA-finalB)/500.0+1.1+noise)
+				gB := math.Max(0, (finalB-finalA)/500.0+1.1+noise)
 
 				goalsAChan <- gA
 				goalsBChan <- gB
