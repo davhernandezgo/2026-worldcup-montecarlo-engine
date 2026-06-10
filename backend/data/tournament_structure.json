@@ -1,110 +1,90 @@
 [
   {
-    "group": "A",
+    "name": "A",
     "teams": [
-      "México",
-      "Sudáfrica",
-      "República de Corea",
-      "República Checa"
+      "MEX",
+      "SUD",
+      "COR",
+      "CZE"
     ]
   },
   {
-    "group": "B",
+    "name": "B",
     "teams": [
-      "Canadá",
-      "Bosnia y Herzegovina",
-      "Catar",
-      "Suiza"
+      "CAN",
+      "BOS",
+      "QAT",
+      "SUI",
+      "BRA",
+      "MOR",
+      "HAI",
+      "ESC",
+      "EST",
+      "AUS",
+      "PAR",
+      "TUR"
     ]
   },
   {
-    "group": "C",
+    "name": "E",
     "teams": [
-      "Brasil",
-      "Marruecos",
-      "Haití",
-      "Escocia"
+      "ALE",
+      "CUR",
+      "COS",
+      "ECU",
+      "PAÍ",
+      "JAP",
+      "SUE",
+      "TÚN",
+      "BÉL",
+      "EGI",
+      "IRÁ",
+      "NUE"
     ]
   },
   {
-    "group": "D",
+    "name": "H",
     "teams": [
-      "Estados Unidos",
-      "Paraguay",
-      "Australia",
-      "Turquía"
+      "ESP",
+      "CAB",
+      "URU",
+      "ARA"
     ]
   },
   {
-    "group": "E",
+    "name": "I",
     "teams": [
-      "Alemania",
-      "Curazao",
-      "Costa de Marfil",
-      "Ecuador"
+      "FRA",
+      "SEN",
+      "IRA",
+      "NOR"
     ]
   },
   {
-    "group": "F",
+    "name": "J",
     "teams": [
-      "Países Bajos",
-      "Japón",
-      "Suecia",
-      "Túnez"
+      "ARG",
+      "ARG",
+      "AUS",
+      "JOR"
     ]
   },
   {
-    "group": "G",
+    "name": "K",
     "teams": [
-      "Bélgica",
-      "Egipto",
-      "RI de Irán",
-      "Nueva Zelanda"
+      "POR",
+      "RD",
+      "UZB",
+      "COL"
     ]
   },
   {
-    "group": "H",
+    "name": "L",
     "teams": [
-      "España",
-      "Cabo Verde",
-      "Arabia Saudí",
-      "Uruguay"
-    ]
-  },
-  {
-    "group": "I",
-    "teams": [
-      "Francia",
-      "Senegal",
-      "Irak",
-      "Noruega"
-    ]
-  },
-  {
-    "group": "J",
-    "teams": [
-      "Argentina",
-      "Argelia",
-      "Austria",
-      "Jordania"
-    ]
-  },
-  {
-    "group": "K",
-    "teams": [
-      "Portugal",
-      "RD de Congo",
-      "Uzbekistán",
-      "Colombia"
-    ]
-  },
-  {
-    "group": "L",
-    "teams": [
-      "Inglaterra",
-      "Croacia",
-      "Ghana",
-      "Panamá"
+      "ING",
+      "CRO",
+      "GHA",
+      "PAN"
     ]
   }
 ]
